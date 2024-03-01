@@ -1,27 +1,27 @@
 {
-  "storeNames": [
+  "stores": [
     {
-      "storeTypeName": "Sporting Goods",
+      "Type": "Sporting Goods",
       "Probability": 1,
       "storeNames": [
-        {"storeName": "Jump Rope Emporium", "Probability": 1},
-        {"storeName": "Master Hu Li's Dojo", "Probability": 1},
-        {"storeName": "Hole in One Tees", "Probability": 1},
-        {"storeName": "Kate's Crystal Balls", "Probability": 1},
-        {"storeName": "What Kind of Ball Would You Like Today, Sir?", "Probability": 1},
-        {"storeName": "The Locker Room", "Probability": 1}
+        {"Name": "Jump Rope Emporium", "Probability": 1},
+        {"Name": "Master Hu Li's Dojo", "Probability": 1},
+        {"Name": "Hole in One Tees", "Probability": 1},
+        {"Name": "Kate's Crystal Balls", "Probability": 1},
+        {"Name": "What Kind of Ball Would You Like Today, Sir?", "Probability": 1},
+        {"Name": "The Locker Room", "Probability": 1}
       ]
     },
     {
-      "storeTypeName": "Fast Food",
+      "Type": "Fast Food",
       "Probability": 1,
       "storeNames": [
-        {"storeName": "Oh No Burrito!", "Probability": 1},
-        {"storeName": "Senior Tacos", "Probability": 1},
-        {"storeName": "Cowabunga Pizza", "Probability": 1},
-        {"storeName": "Every Part of the Worm", "Probability": 1},
-        {"storeName": "Dave's Seafood and Gothic Gift Shop", "Probability": 1},
-        {"storeName": "Protein Rodeo", "Probability": 1}
+        {"Name": "Oh No Burrito!", "Probability": 1},
+        {"Name": "Senior Tacos", "Probability": 1},
+        {"Name": "Cowabunga Pizza", "Probability": 1},
+        {"Name": "Every Part of the Worm", "Probability": 1},
+        {"Name": "Dave's Seafood and Gothic Gift Shop", "Probability": 1},
+        {"Name": "Protein Rodeo", "Probability": 1}
       ]
     }
   ]
