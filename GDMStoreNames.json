@@ -24,5 +24,17 @@
         {"Name": "Protein Rodeo", "Probability": 1}
       ]
     }
+    {
+      "Type": "Perfumes",
+      "Probability": 1,
+      "storeNames": [
+        {"Name": "A Brand New You", "Probability": 1},
+        {"Name": "The Old You", "Probability": 1},
+        {"Name": "Put On Your Face", "Probability": 1},
+        {"Name": "Nine Inch Nails", "Probability": 1},
+        {"Name": "Brianna’s Lotions", "Probability": 1},
+        {"Name": "Precision Cosmetics", "Probability": 1}
+      ]
+    }
   ]
 }
