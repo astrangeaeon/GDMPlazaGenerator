@@ -3,7 +3,7 @@
     {
       "Type": "Sporting Goods",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Jump Rope Emporium", "Probability": 1},
         {"Name": "Master Hu Li's Dojo", "Probability": 1},
         {"Name": "Hole in One Tees", "Probability": 1},
@@ -15,7 +15,7 @@
     {
       "Type": "Fast Food",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Oh No Burrito!", "Probability": 1},
         {"Name": "Senior Tacos", "Probability": 1},
         {"Name": "Cowabunga Pizza", "Probability": 1},
@@ -27,7 +27,7 @@
     {
       "Type": "Perfumes",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "A Brand New You", "Probability": 1},
         {"Name": "The Old You", "Probability": 1},
         {"Name": "Put On Your Face", "Probability": 1},
@@ -39,7 +39,7 @@
     {
       "Type": "Coffee",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Whole in One Teas", "Probability": 1},
         {"Name": "Future Beans", "Probability": 1},
         {"Name": "Superhero Coffee", "Probability": 1},
@@ -51,7 +51,7 @@
     {
       "Type": "Records",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Outer Space Records", "Probability": 1},
         {"Name": "Oh Geez! CDs", "Probability": 1},
         {"Name": "Sounds of Atlantis", "Probability": 1},
@@ -63,7 +63,7 @@
     {
       "Type": "TVs",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Hypno Joe’s Amazing Screens", "Probability": 1},
         {"Name": "Big Tom’s Black and Whites", "Probability": 1},
         {"Name": "Channel 99", "Probability": 1},
@@ -75,7 +75,7 @@
     {
       "Type": "Shoes",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Tarantula Kicks", "Probability": 1},
         {"Name": "Left Shoe", "Probability": 1},
         {"Name": "Right Shoe", "Probability": 1},
@@ -87,7 +87,7 @@
     {
       "Type": "Ice Cream",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Too Many Scoops", "Probability": 1},
         {"Name": "Jubilee Iced Treats", "Probability": 1},
         {"Name": "Last Year’s Snow", "Probability": 1},
@@ -99,7 +99,7 @@
     {
       "Type": "Greeting Cards",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "A Postcard from Diktown Peru", "Probability": 1},
         {"Name": "Green Dawn Post Office", "Probability": 1},
         {"Name": "Postcards of the Hanging", "Probability": 1},
@@ -111,7 +111,7 @@
     {
       "Type": "Videotape Rental",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Big Bang Video", "Probability": 1},
         {"Name": "Rewind or Die", "Probability": 1},
         {"Name": "Spooky Flicks", "Probability": 1},
@@ -123,7 +123,7 @@
     {
       "Type": "Supermarket",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Half Foods", "Probability": 1},
         {"Name": "Extreme Value Zone", "Probability": 1},
         {"Name": "Wine and Spirits", "Probability": 1},
@@ -135,7 +135,7 @@
     {
       "Type": "Clothing",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Gay Apparel", "Probability": 1},
         {"Name": "Ghengis Pecan’s Muscle Tees Unlimited", "Probability": 1},
         {"Name": "Hole in One Tees", "Probability": 1},
@@ -147,7 +147,7 @@
     {
       "Type": "Books",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Windowlight Books", "Probability": 1},
         {"Name": "Banjo’s Books", "Probability": 1},
         {"Name": "The Poltergeist’s Picks", "Probability": 1},
@@ -159,7 +159,7 @@
     {
       "Type": "Glasses and Sunglasses",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Soul Window Optics", "Probability": 1},
         {"Name": "MirrorShades, Inc.", "Probability": 1},
         {"Name": "Jeepers Creepers!", "Probability": 1},
@@ -171,7 +171,7 @@
     {
       "Type": "Bridal Wear and Tuxedos",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Say Yes…Again!", "Probability": 1},
         {"Name": "A Tournament of Love", "Probability": 1},
         {"Name": "The Mystery of Love", "Probability": 1},
@@ -183,7 +183,7 @@
     {
       "Type": "Candies",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The Good Witch Sweetshop", "Probability": 1},
         {"Name": "Cherry Bombs", "Probability": 1},
         {"Name": "Sex and Candy", "Probability": 1},
@@ -195,7 +195,7 @@
     {
       "Type": "Furniture",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The Empty Chair", "Probability": 1},
         {"Name": "Funny-legged Furniture", "Probability": 1},
         {"Name": "Psycho Dave’s Exotic Fire Beds", "Probability": 1},
@@ -207,7 +207,7 @@
     {
       "Type": "Collectable Dolls",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Doll Revolution", "Probability": 1},
         {"Name": "Precious Keepsakes", "Probability": 1},
         {"Name": "The Caged Geranium", "Probability": 1},
@@ -219,7 +219,7 @@
     {
       "Type": "Cigars and Cigarettes",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The Warlock’s Pipe", "Probability": 1},
         {"Name": "Full-length Cigarettes", "Probability": 1},
         {"Name": "Smoke by the Pound", "Probability": 1},
@@ -231,7 +231,7 @@
     {
       "Type": "Pets",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The Ones Big N Forgot", "Probability": 1},
         {"Name": "Lizards Most Intriguing", "Probability": 1},
         {"Name": "Ray’s Strays", "Probability": 1},
@@ -243,7 +243,7 @@
     {
       "Type": "Scented Candles and Soap",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "An Enduring Whiff Incense", "Probability": 1},
         {"Name": "Big Time Sensuality!", "Probability": 1},
         {"Name": "By Flickering Torchlight", "Probability": 1},
@@ -255,7 +255,7 @@
     {
       "Type": "Ski Supplies",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Oh Geez! Skis", "Probability": 1},
         {"Name": "OG’s Skis", "Probability": 1},
         {"Name": "Thieves’ Tools", "Probability": 1},
@@ -267,7 +267,7 @@
     {
       "Type": "Ice Rink",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Blades n’at", "Probability": 1},
         {"Name": "The Land of Ice and Snow", "Probability": 1},
         {"Name": "Don’t Break the Ice", "Probability": 1},
@@ -279,7 +279,7 @@
     {
       "Type": "Miniature Golf",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The 18 Holes of Sebastian Fontaine", "Probability": 1},
         {"Name": "A Hole of a Good Time", "Probability": 1},
         {"Name": "The Club and Balls Club", "Probability": 1},
@@ -291,7 +291,7 @@
     {
       "Type": "Hairdresser",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The Hair Apparent", "Probability": 1},
         {"Name": "A Thousand Cuts", "Probability": 1},
         {"Name": "Pink Mohawks", "Probability": 1},
@@ -303,7 +303,7 @@
     {
       "Type": "Magic Eye Shop",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Seekers of the Sightless Way", "Probability": 1},
         {"Name": "Magician’s Best Friend", "Probability": 1},
         {"Name": "Tattoo Used", "Probability": 1},
@@ -315,7 +315,7 @@
     {
       "Type": "Novelties",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Everyday is Saturday", "Probability": 1},
         {"Name": "Jane’s Famous Flames", "Probability": 1},
         {"Name": "How to Cut a Cookie", "Probability": 1},
@@ -327,7 +327,7 @@
     {
       "Type": "Florist",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Yesterday’s Blooms", "Probability": 1},
         {"Name": "Tomorrow’s Flowers", "Probability": 1},
         {"Name": "Princess Petals", "Probability": 1},
@@ -339,7 +339,7 @@
     {
       "Type": "Aquariums",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Red Fish, Blue Fish", "Probability": 1},
         {"Name": "Whales For Sale", "Probability": 1},
         {"Name": "Baby Sharks", "Probability": 1},
@@ -351,7 +351,7 @@
     {
       "Type": "Art Supplies",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Small Art by Karl", "Probability": 1},
         {"Name": "Fiona’s Palace of Paper", "Probability": 1},
         {"Name": "Used Blood", "Probability": 1},
@@ -363,7 +363,7 @@
     {
       "Type": "Pharmacy",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The All-Night Chemist", "Probability": 1},
         {"Name": "Mommy’s Little Secret", "Probability": 1},
         {"Name": "Little Amsterdam", "Probability": 1},
@@ -375,7 +375,7 @@
     {
       "Type": "Arcade",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Noah’s Arcade", "Probability": 1},
         {"Name": "Bryan’s Beeps, Blips and Ball Pits", "Probability": 1},
         {"Name": "Freezer Tag / Ghost Arcade", "Probability": 1},
@@ -387,7 +387,7 @@
     {
       "Type": "Photo Studio",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Flash Bang Boom", "Probability": 1},
         {"Name": "Primitive Photography", "Probability": 1},
         {"Name": "The Dark Room", "Probability": 1},
@@ -399,7 +399,7 @@
     {
       "Type": "Hats",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Rob’s Big Damn Hats", "Probability": 1},
         {"Name": "Practical Helmets", "Probability": 1},
         {"Name": "Mack’s Stacks of Masks", "Probability": 1},
@@ -411,7 +411,7 @@
     {
       "Type": "Watches and Clocks",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "Isn’t It Time?", "Probability": 1},
         {"Name": "Watch Out!", "Probability": 1},
         {"Name": "Sands of Time by Jasmine", "Probability": 1},
@@ -423,7 +423,7 @@
     {
       "Type": "Toys",
       "Probability": 1,
-      "storeNames": [
+      "names": [
         {"Name": "The Kid Zone!", "Probability": 1},
         {"Name": "Nietzsche’s Birthday Palace", "Probability": 1},
         {"Name": "Susanna’s Puzzles", "Probability": 1},
