@@ -3,7 +3,7 @@
     {
       "Type": "Smell",
       "Probability": 1,
-      "sensoryNames": [
+      "names": [
         {"Name": "Harsh cleaning chemicals", "Probability": 1},
         {"Name": "Delicious warm popcorn smell shifts gradually to burnt", "Probability": 1},
         {"Name": "Faint whiff of a dirty diaper", "Probability": 1},
@@ -15,7 +15,7 @@
        {
       "Type": "Sound",
       "Probability": 1,
-      "sensoryNames": [
+      "names": [
         {"Name": "Muffled punk rock from behind closed metal store gate", "Probability": 1},
         {"Name": "Pop of gunfire from a neighboring plaza", "Probability": 1},
         {"Name": "Buzzing of innumerable invisible flies and bees", "Probability": 1},
@@ -27,7 +27,7 @@
     {
       "Type": "Sight",
       "Probability": 1,
-      "sensoryNames": [
+      "names": [
         {"Name": "Bright orange puddle of vomit, coupon to random store floating on top", "Probability": 1},
         {"Name": "Large elongated bubbles float through the plaza, blown by a giant child in a nearby plaza", "Probability": 1},
         {"Name": "Faction graffiti, i.e., a mannequin never forgets!, hearts can be broken!", "Probability": 1},
@@ -39,7 +39,7 @@
     {
       "Type": "Taste",
       "Probability": 1,
-      "sensoryNames": [
+      "names": [
         {"Name": "Microscopic grit coats mouth", "Probability": 1},
         {"Name": "Unmistakable taste of blood, like a loose tooth or bit tongue", "Probability": 1},
         {"Name": "Dry air dehydrates throats", "Probability": 1},
@@ -51,7 +51,7 @@
     {
       "Type": "Touch",
       "Probability": 1,
-      "sensoryNames": [
+      "names": [
         {"Name": "Sticky gum trod underfoot", "Probability": 1},
         {"Name": "Periodic drips of unknown liquid", "Probability": 1},
         {"Name": "Wet carpet that squelches underfoot", "Probability": 1},
@@ -63,7 +63,7 @@
      {
       "Type": "Synesthesia",
       "Probability": 1,
-      "sensoryNames": [
+      "names": [
         {"Name": "Faint smell of sirens from outside the mall", "Probability": 1},
         {"Name": "Sound of melting plastic like icicles running up your arm", "Probability": 1},
         {"Name": "Dangerous taste of gasoline on your tongue", "Probability": 1},
