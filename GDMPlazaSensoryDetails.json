@@ -1,0 +1,76 @@
+{
+  "sensory": [
+    {
+      "Type": "Smell",
+      "Probability": 1,
+      "sensoryNames": [
+        {"Name": "Harsh cleaning chemicals", "Probability": 1},
+        {"Name": "Delicious warm popcorn smell shifts gradually to burnt", "Probability": 1},
+        {"Name": "Faint whiff of a dirty diaper", "Probability": 1},
+        {"Name": "Illicit thrill of perfume", "Probability": 1},
+        {"Name": "Scent of burning leaves from a different plaza", "Probability": 1},
+        {"Name": "Rank smell from a dying, diseased horse", "Probability": 1}
+      ]
+    },
+       {
+      "Type": "Sound",
+      "Probability": 1,
+      "sensoryNames": [
+        {"Name": "Muffled punk rock from behind closed metal store gate", "Probability": 1},
+        {"Name": "Pop of gunfire from a neighboring plaza", "Probability": 1},
+        {"Name": "Buzzing of innumerable invisible flies and bees", "Probability": 1},
+        {"Name": "Muzak interrupted by voice reading license plate number", "Probability": 1},
+        {"Name": "Mother yelling at her kid from an inaccessible upper balcony", "Probability": 1},
+        {"Name": "Screeching and animal hollering from behind boarded over store", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Sight",
+      "Probability": 1,
+      "sensoryNames": [
+        {"Name": "Bright orange puddle of vomit, coupon to random store floating on top", "Probability": 1},
+        {"Name": "Large elongated bubbles float through the plaza, blown by a giant child in a nearby plaza", "Probability": 1},
+        {"Name": "Faction graffiti, i.e., a mannequin never forgets!, hearts can be broken!", "Probability": 1},
+        {"Name": "Moonlight spills down from a high window", "Probability": 1},
+        {"Name": "Skeleton next to an abandoned mobility scooter", "Probability": 1},
+        {"Name": "Forgotten shopping bag with product from store in distant plaza", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Taste",
+      "Probability": 1,
+      "sensoryNames": [
+        {"Name": "Microscopic grit coats mouth", "Probability": 1},
+        {"Name": "Unmistakable taste of blood, like a loose tooth or bit tongue", "Probability": 1},
+        {"Name": "Dry air dehydrates throats", "Probability": 1},
+        {"Name": "Thin cold air like on mountain top", "Probability": 1},
+        {"Name": "Random PC vomits bright orange vomit with coupon", "Probability": 1},
+        {"Name": "Someone handing out free samples from a fast-food store", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Touch",
+      "Probability": 1,
+      "sensoryNames": [
+        {"Name": "Sticky gum trod underfoot", "Probability": 1},
+        {"Name": "Periodic drips of unknown liquid", "Probability": 1},
+        {"Name": "Wet carpet that squelches underfoot", "Probability": 1},
+        {"Name": "Slippery soapy wet tiles with a wet floor sign", "Probability": 1},
+        {"Name": "Obnoxious kids spitting and tossing garbage into plaza below from an upper balcony", "Probability": 1},
+        {"Name": "Unbidden, psychic propaganda from one of the factions creates alien thoughts in a random PC", "Probability": 1}
+      ]
+    },
+     {
+      "Type": "Synesthesia",
+      "Probability": 1,
+      "sensoryNames": [
+        {"Name": "Faint smell of sirens from outside the mall", "Probability": 1},
+        {"Name": "Sound of melting plastic like icicles running up your arm", "Probability": 1},
+        {"Name": "Dangerous taste of gasoline on your tongue", "Probability": 1},
+        {"Name": "The strange and unrememberable light that is in dreams suffuses everything", "Probability": 1},
+        {"Name": "The sight of ordered tiles fills you with a vague aggression", "Probability": 1},
+        {"Name": "Eyes fog up like glasses then gradually return to normal", "Probability": 1}
+      ]
+    }
+  ]
+}
