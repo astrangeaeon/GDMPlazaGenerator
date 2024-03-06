@@ -7,18 +7,202 @@
   <title>GDM Plaza Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="">
-  <script src="scripts.js"></script>
+  <script src="GDMscriptfunction.js">
+  function myFunction() {
+  }
+  </script>
+  <style>
+ <!-- h3 {color: blue;
+	font-family: verdana;
+	font-size: 300%;}
+  p  {color:red;}
+  h5 {color:purple;
+     font-family: courier;}
+	table, th, td {
+	border:1px solid black;
+	border-collapse: collapse;
+	border-style: inset;
+	}
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:50%;  
+  float:left;
+}
+
+
+	
+#placeholder {
+background-color: powderblue;
+}
+
+#features {
+background-color: yellow;
+}
+
+#sensory {
+background-color: purple;
+
+}-->
+  </style>
   
 </head>
 
-<body>
-  
+<body style="background-color:green;">
+  <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 <div class="container">
-  hello world
+ <!--
+  <h1 style="background-color:dodgerblue; color:red;"><i>hello world5</i></h1>
+  <a href="#bottom">Jump to the Bottom</a></br>
+  <!--<button id="btn-stores2" >This button should make stores </button>
+  <a href="#"id="btn-stores" data-numrolls="4" data-category="stores" data-json="GDMStoreNames">click here</a>
+  <p style="color:blue; border:2px solid Tomato;">This is to see what<br> a paragraph looks like</p>
+  <p style="color:green;">This is to see what a different paragraph looks like</p>
+  <p title="tooltip"><strong>This is tooltip country</strong></p>
+  <bdo dir="rtl">why would you ever do this?</bdo>
+  <pre>
+  supposedly this poem 
+  will be rendered 
+  correctly 
+  by the browser
+  </pre>
+  <h2>tables! what is her job!?</h2>
+  
+  <table style="width:100%">
+	<tr>
+		<th>Monster 1</th>
+		<th>Monster 2</th>
+	</tr>
+	<tr>
+		<td>Eddie Munster</td>
+		<td><span style="color:red;font-weight:bold;">Freddie Krueger</span></td>
+	</tr>
+	<tr>
+		<td>4 tables</td>
+		<td>7 tables</td>
+	<tr>
+	</table>
+-->
+<div class ="mycontainer">
+<div id="placeholder" style="background-color:#FFF4A3;">
+  <h2>The Big Button</h2>
+  <button id="myBtn4">Generate Plaza</button>
 </div>
+<div id="features" style="background-color:powderblue;">
+	<h2>Dynamic Plaza Features</h2>
+	<button id="myBtn2">Plaza Feature Button</button>
+</div>
+ <div id="sensory" style="background-color:purple;">
+	<h2>Dynamic Plaza Sensory Details</h2>
+	<button id="myBtn3">Plaza Sensory Detail Button</button>
+</div>
+<div id="stores" style="background-color:pink;">
+	<h2>Dynamic Stores in the Plaza</h2>
+<button id="myBtn">Store Names Button</button>
+	
+	
+</div>
+  
+  <!--<p style="background-color:rgb(180,200,200);">grey is my favorite color</p>-->
+  <a href="https://comemartin.itch.io/green-dawn-mall">
+  <img src="C:\Users\Chris\Desktop\GDMimage.png" alt="GDM" width="104" height="142">
+  </a>
+  <!--<p title="John 'ShotGun' Nelson"> if you know you know </p>
+  <h2>hello continent</h2>
+  <p> antarctica looks nice</p>
+  <p style ="color:yellow; background-color:hsla(9, 100%, 64%, 0.5);">color testing</p>
+  <hr>
+  <h3 style="text-align:center;">hello country</h3>
+  <h4>hello state</h4>
+  <h5>hello city</h5>
+  <h6>hello neighborhood</h6>
+  
+  
+<h1>The Element Object</h1>
+<h2>The addEventListener() Method</h2>
 
+<p>Attach a click event to a button:</p>-->
+
+
+
+
+<p id="features"></p>
+  
+  <p id="home">Home jump</p>
+  <p id="news">News jump </p>
+  <p id="contact">Contact jump </p>
+  <p id="about">About jump</p>
+  
+  <!--<h2 id="bottom">Bottom--you just jumped here</h2>-->
+</div>
+<!--
 <script>
+ document.getElementById("btn-stores").addEventListener("click", function() {
+  console.log("I click the button");
+  var numrolls = document.querySelector("#btn-stores")dataset.numrolls;
+  var category = document.querySelector("#btn-stores")dataset.category;
+  var jsonFile = document.querySelector("#btn-stores")dataset.json;
+  
+  Roll(numrolls,category,jsonFile)
+})
+-->
+<script>
+const element = document.getElementById("myBtn");
+element.addEventListener("click", function() {
+	Roll(6, "stores", "GDMStoreNames");
+});
+  
+const element2 = document.getElementById("myBtn2");
+element2.addEventListener("click", function() {
+	Roll(2, "features", "GDMPlazaFeatures");
+});
+
+const element3 = document.getElementById("myBtn3");
+element3.addEventListener("click", function() {
+	Roll(2, "sensory", "GDMPlazaSensoryDetails");
+});
+
+const element4 = document.getElementById("myBtn4");
+element4.addEventListener("click", function() {
+    Roll(6, "stores", "GDMStoreNames");
+	Roll(2, "sensory", "GDMPlazaSensoryDetails");
+	Roll(2, "features", "GDMPlazaFeatures");
+});
+  <!--Roll(2, "stores", "GDMStoreNames"-->
+  
 </script>
 
 </body>
+</html>
 </html>
