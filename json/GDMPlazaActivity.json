@@ -36,6 +36,7 @@
         {"Name": "A surly bouncer who asks for the password or a bribe", "Probability": 1}
       ]
     },
+    {
     "Type": "StoreInPlaza",
       "Probability": 1,
       "names": [
