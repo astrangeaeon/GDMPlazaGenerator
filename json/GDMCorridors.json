@@ -1,0 +1,16 @@
+{
+  "corridor": [
+    {
+      "Type": "Number",
+      "Probability": 1,
+      "names": [
+        {"Name": "1 corridor", "Probability": 1},
+        {"Name": "2 corridors", "Probability": 1},
+        {"Name": "3 corridors", "Probability": 1},
+        {"Name": "4 corridors", "Probability": 1},
+        {"Name": "5 corridors", "Probability": 1},
+        {"Name": "6 corridors", "Probability": 1}
+      ]
+    }
+  ]
+}
