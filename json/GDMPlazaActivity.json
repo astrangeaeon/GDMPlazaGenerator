@@ -1,0 +1,135 @@
+{
+  "activity": [
+    {
+      "Type": "HolidayMisc",
+      "Probability": 1,
+      "names": [
+        {"Name": "Take picture with Santa in village and tree with wrapped presents", "Probability": 1},
+        {"Name": "Kid Halloween parade--trick or treat or else!", "Probability": 1},
+        {"Name": "Easter egg hunt with Bunny with firearms involved", "Probability": 1},
+        {"Name": "Faded Happy Birthday Ronald banner and streamers", "Probability": 1},
+        {"Name": "Black Friday Mega Sale crowd", "Probability": 1},
+        {"Name": "Independence Day with indoor fireworks sponsored by a store", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Timer1",
+      "Probability": 1,
+      "names": [
+        {"Name": "Two lumberjacks sawing down a silent tree with a face that's grimacing in pain", "Probability": 1},
+        {"Name": "Teenagers painting the shell of a huge sleeping turtle", "Probability": 1},
+        {"Name": "Armed group in safari garb, hunting for bargains", "Probability": 1},
+        {"Name": "Fountain overflowing, drain blocked by a garbage bag worth of hair", "Probability": 1},
+        {"Name": "A beggar with a crutch being confronted by Council of Objects bullies", "Probability": 1},
+        {"Name": "Group of kids on a scavenger hunt looking for something a PC brought in with them", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "StoreFront",
+      "Probability": 1,
+      "names": [
+        {"Name": "Styled like a medieval castle with drawbridge and moat", "Probability": 1},
+        {"Name": "An old-fashioned movie marquee", "Probability": 1},
+        {"Name": "The entrance to a cave", "Probability": 1},
+        {"Name": "An apartment entrance door with a peephole and numbers", "Probability": 1},
+        {"Name": "A southern mansion porch with rocking chairs", "Probability": 1},
+        {"Name": "A surly bouncer who asks for the password or a bribe", "Probability": 1}
+      ]
+    },
+    "Type": "StoreInPlaza",
+      "Probability": 1,
+      "names": [
+        {"Name": "Has a Now Hiring sign in the window", "Probability": 1},
+        {"Name": "A group is loudly boycotting the store", "Probability": 1},
+        {"Name": "A shoplifter rushes out followed by a clerk yelling", "Probability": 1},
+        {"Name": "Bored sole employee stands outside smoking scented cigarette", "Probability": 1},
+        {"Name": "Going Out of Business Sale sign and understocked shelves / Grand Opening and crowd of shoppers", "Probability": 1},
+        {"Name": "Store is a front for a faction hideout", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Traversal",
+      "Probability": 1,
+      "names": [
+        {"Name": "Inaccessible upper balconies and walkways", "Probability": 1},
+        {"Name": "Glass floor with a plaza below", "Probability": 1},
+        {"Name": "Hole with caution tape and cone", "Probability": 1},
+        {"Name": "Have to crawl through rubble to get to the next plaza", "Probability": 1},
+        {"Name": "Rock climbing wall leads up/down", "Probability": 1},
+        {"Name": "Open plaza below with stores around perimeter and balconies", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Weather",
+      "Probability": 1,
+      "names": [
+        {"Name": "Sprinklers on and shoppers with umbrellas and raincoats avoid puddles", "Probability": 1},
+        {"Name": "Swampy wet indoor carpeting squishes underfoot", "Probability": 1},
+        {"Name": "Freezing cold from huge ceiling fans and AC", "Probability": 1},
+        {"Name": "Sweltering heat from HVAC vents", "Probability": 1},
+        {"Name": "Large controlled bonfire and fire alarms blaring", "Probability": 1},
+        {"Name": "Small tornado sucking things out of stores", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Floor",
+      "Probability": 1,
+      "names": [
+        {"Name": "Cobblestone", "Probability": 1},
+        {"Name": "Solid sheet of metal", "Probability": 1},
+        {"Name": "Loose brickwork", "Probability": 1},
+        {"Name": "Tiled patterns", "Probability": 1},
+        {"Name": "Shag carpeting", "Probability": 1},
+        {"Name": "Sewer grates pour steam into plaza", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Preparation/Aftermath",
+      "Probability": 1,
+      "names": [
+        {"Name": "Paintball battle between two factions", "Probability": 1},
+        {"Name": "Snowball fight between two factions", "Probability": 1},
+        {"Name": "Food fight between two factions", "Probability": 1},
+        {"Name": "Teenage riot with leather and booze", "Probability": 1},
+        {"Name": "Kid’s birthday at the mall", "Probability": 1},
+        {"Name": "Big match of the season", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Autumn",
+      "Probability": 1,
+      "names": [
+        {"Name": "Lit jack o’lanterns outside each store", "Probability": 1},
+        {"Name": "Haunted house with fake(?) screams", "Probability": 1},
+        {"Name": "Spooky props like gravestones and cobwebs", "Probability": 1},
+        {"Name": "Basket of candy outside store with Take 1 sign", "Probability": 1},
+        {"Name": "Mall servant sweeping up leaves into piles", "Probability": 1},
+        {"Name": "High school homecoming dance happening in the plaza", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Winter",
+      "Probability": 1,
+      "names": [
+        {"Name": "Huge decorated tree with unusual ornaments", "Probability": 1},
+        {"Name": "Piles of wrapped presents", "Probability": 1},
+        {"Name": "Strings of colored lights", "Probability": 1},
+        {"Name": "Weird carolers singing unfamiliar tunes outside stores", "Probability": 1},
+        {"Name": "Snow-covered plaza with stylish snowmen with outfits", "Probability": 1},
+        {"Name": "Servant of the mall shoveling snow / snow plow", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "ImproverActivities",
+      "Probability": 1,
+      "names": [
+        {"Name": "Cleaning up faction graffiti / glitter bomb aftermath", "Probability": 1},
+        {"Name": "Liquidation team with flamethrowers cleaning out a store", "Probability": 1},
+        {"Name": "Repair team fixing an out of order staircase", "Probability": 1},
+        {"Name": "Setting up a checkpoint between plazas", "Probability": 1},
+        {"Name": "Taylorism guy with stopwatch timing shoppers outside a store", "Probability": 1},
+        {"Name": "Mall Improvers working with Servants of Mall to round up Free From Green teens", "Probability": 1}
+      ]
+    }
+  ]
+}
