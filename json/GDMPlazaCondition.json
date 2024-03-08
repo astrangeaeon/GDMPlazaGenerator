@@ -1,0 +1,16 @@
+{
+  "condition": [
+    {
+      "Type": "Condition",
+      "Probability": 1,
+      "names": [
+        {"Name": "sleazy/dangerous", "Probability": 1},
+        {"Name": "rundown", "Probability": 1},
+        {"Name": "neglected with scattered litter", "Probability": 1},
+        {"Name": "Opening Day clean", "Probability": 1},
+        {"Name": "cleaned recently", "Probability": 1},
+        {"Name": "completely trashed", "Probability": 1}
+      ]
+    }
+  ]
+}
