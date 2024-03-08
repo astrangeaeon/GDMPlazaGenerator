@@ -1,0 +1,40 @@
+{
+  "corridorclue": [
+    {
+      "Type": "Visual",
+      "Probability": 1,
+      "names": [
+        {"Name": "red footprints head down or come from that direction", "Probability": 1},
+        {"Name": "a wide translucent slug trail", "Probability": 1},
+        {"Name": "arrows advertising a store point that direction", "Probability": 1},
+        {"Name": "a strand of cheerful colored lights beckon", "Probability": 1},
+        {"Name": "a moving walkway goes that direction", "Probability": 1},
+        {"Name": "caution tape and a warning sign bar this direction", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Auditory",
+      "Probability": 1,
+      "names": [
+        {"Name": "a choir singing joyously", "Probability": 1},
+        {"Name": "loud construction noises", "Probability": 1},
+        {"Name": "waves or traffic", "Probability": 1},
+        {"Name": "a festive street party atmosphere", "Probability": 1},
+        {"Name": "booming thunder and rain", "Probability": 1},
+        {"Name": "loud buzzing of a loose connection, static hiss", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Smelly",
+      "Probability": 1,
+      "names": [
+        {"Name": "french fries and oil", "Probability": 1},
+        {"Name": "industrial bleach", "Probability": 1},
+        {"Name": "hideous sewage", "Probability": 1},
+        {"Name": "fresh spring outdoor smell", "Probability": 1},
+        {"Name": "gasoline", "Probability": 1},
+        {"Name": "swimming pool chlorine", "Probability": 1}
+      ]
+    }
+  ]
+}
