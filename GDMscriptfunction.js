@@ -4,7 +4,7 @@
 
 function Roll(numRolls, category, table){
 	 // Now you can use the 'data' in your Roll function
-let url = `https://astrangeaeon.github.io/GDMPlazaGenerator/${table}.json`;
+let url = `https://astrangeaeon.github.io/GDMPlazaGenerator/json/${table}.json`;
   fetch(url)
     .then(response => response.json())
     .then(data => {

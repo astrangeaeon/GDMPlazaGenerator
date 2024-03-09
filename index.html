@@ -12,10 +12,10 @@
   }
   </script>
   <style>
- <!-- h3 {color: blue;
+  h3 {color: blue;
 	font-family: verdana;
 	font-size: 300%;}
-  p  {color:red;}
+  p  {color:black;}
   h5 {color:purple;
      font-family: courier;}
 	table, th, td {
@@ -119,27 +119,98 @@ background-color: purple;
   <h2>The Big Button</h2>
   <button id="myBtn4">Generate Plaza</button>
 </div>
+<div id="plazabox" style="background-color:Lime;">
 <div id="features" style="background-color:powderblue;">
-	<h2>Dynamic Plaza Features</h2>
+	<h2>The plaza has at least one of the following features:</h2>
 	<button id="myBtn2">Plaza Feature Button</button>
 </div>
  <div id="sensory" style="background-color:purple;">
-	<h2>Dynamic Plaza Sensory Details</h2>
+	<h2>The plaza has at least one of the following sensory details:</h2>
 	<button id="myBtn3">Plaza Sensory Detail Button</button>
 </div>
-<div id="stores" style="background-color:pink;">
-	<h2>Dynamic Stores in the Plaza</h2>
-<button id="myBtn">Store Names Button</button>
-	
-	
+<div id="activity" style="background-color:SlateBlue;">
+	<h2>The plaza may have one or more of the following things going on:</h2>
+	<button id="myBtn9">Plaza Other Activity Button</button>
 </div>
-  <img src="ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" width="104" height="142">
+</div>
+<div id="crowdandcondtionbox" style ="background-color:LightSeaGreen;">
+<div id="crowd" style="background-color:PaleGreen;">
+	<h2>The plaza's crowd level:</h2>
+<button id="myBtn12">Crowd Level Button</button>
+</div>
+<div id="condition" style="background-color:Olive;">
+	<h2>The plaza's condition:</h2>
+<button id="myBtn13">Plaza Condition Button</button>
+</div>
+</div>
+<div id="storesbox" style="background-color:Navy";>
+<div id="stores" style="background-color:pink;">
+	<h2>Stores in the Plaza</h2>
+<button id="myBtn">Store Names Button</button>
+</div>
+<div id="broken" style="background-color:darksalmon;">
+	<h2>One or two of the stores may be out of business and are:</h2>
+<button id="myBtn5">Broken Store Button</button>
+</div>
+</div>
+<div id="corridorbox" style="background-color:Magenta;">
+<div id="corridor" style="background-color:coral;">
+	<h2>The plaza has:</h2>
+<button id="myBtn6">Corridor Button</button>
+</div>
+<div id="corridorclue" style="background-color:coral;">
+<h2>Some of the corridors might stand out. Here is how:</h2>
+<button id="myBtn7">Corridor Clue Button</button>
+</div>
+<div id="elevator" style="background-color:RosyBrown;">
+<h2>The plaza may have an elevator or escalator:</h2>
+<button id="myBtn10">Elevator or Escalator Button</button>
+</div>
+<div id="elevatorsurprise" style="background-color:PaleVioletRed;">
+<h2>If there's an elevator, it may have a surprise:</h2>
+<button id="myBtn11">Elevator Surprise Button</button>
+</div>
+</div>
+<div id="trashcan" style="background-color:GreenYellow;">
+<h2>If there's a trash can, here is what is in it:</h2>
+<button id="myBtn8">Trash Can Button</button>
+</div>
+  
+ <div id="objects" style="background-color:SpringGreen;">
+<h2>If you need a random odd object, pick one of these:</h2>
+<button id="myBtn14">Odd Object Button</button>
+</div> 
+<div id="npcbox" style="background-color:Chocolate;">
+<div id="npcs" style="background-color:MediumPurple;">
+<h2>If you need a random odd NPC, pick one of these or consider making them a group:</h2>
+<button id="myBtn15">Odd NPC Button</button>
+</div>
+<div id="npcappearance" style="background-color:LimeGreen;">
+<h2> If you need a few details to help describe an odd NPC, use a few of these:</h2>
+<button id="myBtn16">NPC Appearance Button</button>
+</div>
+<div id="npcprice" style="background-color:DarkMagenta;">
+<h2>There's a chance an NPC knows something useful about the Mall. If they do, they:</h2>
+<button id="myBtn17">NPC Price Button</button>
+</div>
+<div id="npcknowledge" style="background-color:DarkKhaki;">
+<h2>Their knowledge concerns:</h2>
+<button id="myBtn18">NPC Knowledge Button</button>
+</div>
+</div>
   <!--<p style="background-color:rgb(180,200,200);">grey is my favorite color</p>-->
   <a href="https://comemartin.itch.io/green-dawn-mall">
-  <img src="GDMimage.png" alt="GDM" width="104" height="142">
+  <img src="C:\Users\Chris\Desktop\GDMimage.png" alt="GDM" width="104" height="142">
   </a>
-
- 
+  <!--<p title="John 'ShotGun' Nelson"> if you know you know </p>
+  <h2>hello continent</h2>
+  <p> antarctica looks nice</p>
+  <p style ="color:yellow; background-color:hsla(9, 100%, 64%, 0.5);">color testing</p>
+  <hr>
+  <h3 style="text-align:center;">hello country</h3>
+  <h4>hello state</h4>
+  <h5>hello city</h5>
+  <h6>hello neighborhood</h6>
   
   
 <h1>The Element Object</h1>
@@ -191,7 +262,91 @@ element4.addEventListener("click", function() {
     Roll(6, "stores", "GDMStoreNames");
 	Roll(2, "sensory", "GDMPlazaSensoryDetails");
 	Roll(2, "features", "GDMPlazaFeatures");
+	Roll(1, "broken", "GDMBrokenStore");
+	Roll(1, "corridor", "GDMCorridors");
+	Roll(1, "corridorclue", "GDMCorridorClue");
+	Roll(1, "trashcan", "GDMPlazaTrashCan");
+	Roll(3, "activity", "GDMPlazaActivity");
+	Roll(1, "elevator", "GDMElevatorsEscalators");
+	Roll(1, "crowd", "GDMPlazaCrowd");
+	Roll(1, "condition", "GDMPlazaCondition");
+	Roll(5, "objects", "GDMPlazaOddObjects");
+	Roll(5, "npcs", "GDMPlazaOddNPCs");
+	Roll(5, "npcappearance", "GDMPlazaNPCAppearance");
+	Roll(1, "npcprice", "GDMPlazaNPCPrice");
+	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
 });
+
+const element5 = document.getElementById("myBtn5");
+element5.addEventListener("click", function() {
+	Roll(1, "broken", "GDMBrokenStore");
+});
+
+const element6 = document.getElementById("myBtn6");
+element6.addEventListener("click", function() {
+	Roll(1, "corridor", "GDMCorridors");
+});
+
+const element7 = document.getElementById("myBtn7");
+element7.addEventListener("click", function() {
+	Roll(1, "corridorclue", "GDMCorridorClue");
+});
+
+const element8 = document.getElementById("myBtn8");
+element8.addEventListener("click", function() {
+	Roll(1, "trashcan", "GDMPlazaTrashCan");
+});
+
+const element9 = document.getElementById("myBtn9");
+element9.addEventListener("click", function() {
+	Roll(3, "activity", "GDMPlazaActivity");
+});
+
+const element10 = document.getElementById("myBtn10");
+element10.addEventListener("click", function() {
+	Roll(1, "elevator", "GDMElevatorsEscalators");
+});
+
+const element11 = document.getElementById("myBtn11");
+element11.addEventListener("click", function() {
+	Roll(1, "elevatorsurprise", "GDMElevatorSurprise");
+});
+
+const element12 = document.getElementById("myBtn12");
+element12.addEventListener("click", function() {
+	Roll(1, "crowd", "GDMPlazaCrowd");
+});
+
+const element13 = document.getElementById("myBtn13");
+element13.addEventListener("click", function() {
+	Roll(1, "condition", "GDMPlazaCondition");
+});
+
+const element14 = document.getElementById("myBtn14");
+element14.addEventListener("click", function() {
+	Roll(5, "objects", "GDMPlazaOddObjects");
+});
+
+const element15 = document.getElementById("myBtn15");
+element15.addEventListener("click", function() {
+	Roll(5, "npcs", "GDMPlazaOddNPCs");
+});
+
+const element16 = document.getElementById("myBtn16");
+element16.addEventListener("click", function() {
+	Roll(5, "npcappearance", "GDMPlazaNPCAppearance");
+});
+
+const element17 = document.getElementById("myBtn17");
+element17.addEventListener("click", function() {
+	Roll(1, "npcprice", "GDMPlazaNPCPrice");
+});
+
+const element18 = document.getElementById("myBtn18");
+element18.addEventListener("click", function() {
+	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
+});
+
   <!--Roll(2, "stores", "GDMStoreNames"-->
   
 </script>
