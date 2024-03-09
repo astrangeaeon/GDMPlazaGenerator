@@ -1,0 +1,28 @@
+{
+  "npcknowledge": [
+    {
+      "Type": "Navigation",
+      "Probability": 1,
+      "names": [
+        {"Name": "how to get to a specific store from current location", "Probability": 1},
+        {"Name": "a PIN to gain access to the upper levels from current location", "Probability": 1},
+        {"Name": "a secret passage in a specific store in the current plaza that leads to the lower levels", "Probability": 1},
+        {"Name": "how to get to a specific plaza feature from current location", "Probability": 1},
+        {"Name": "a random faction's hidden cache with a random object located in a nearby plaza", "Probability": 1},
+        {"Name": "password for random faction hideout in a nearby plaza or store", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Secret",
+      "Probability": 1,
+      "names": [
+        {"Name": "about a random faction", "Probability": 1},
+        {"Name": "about the Heart of the Mall", "Probability": 1},
+        {"Name": "about the Friend", "Probability": 1},
+        {"Name": "about a random store in the Mall", "Probability": 1},
+        {"Name": "about a PC", "Probability": 1},
+        {"Name": "about how to escape from the Mall", "Probability": 1}
+      ]
+    }
+  ]
+}
