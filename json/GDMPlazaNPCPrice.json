@@ -1,0 +1,16 @@
+{
+  "npcprice": [
+    {
+      "Type": "Price",
+      "Probability": 1,
+      "names": [
+        {"Name": "let slip they know something but refuse to share details, requiring coercion", "Probability": 1},
+        {"Name": "can be bribed into sharing for 2d6 money", "Probability": 1},
+        {"Name": "will share if PCs do a favor for them", "Probability": 1},
+        {"Name": "will share if PCs give them a real world item", "Probability": 1},
+        {"Name": "will share the information for free", "Probability": 1},
+        {"Name": "will share the information for free and provide additional aid for 1d6 money", "Probability": 1}
+      ]
+    }
+  ]
+}
