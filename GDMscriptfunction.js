@@ -63,6 +63,10 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+function Reroll(category) {
+	document.getElementById(category).innerHTML = "";
+}
+
 //Roll(2, "stores", "GDMStoreNames");
 
 /*
