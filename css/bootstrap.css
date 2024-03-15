@@ -3105,7 +3105,7 @@ table th[class*="span"],
   padding: 19px;
   margin-bottom: 20px;
   background-color: #000000;
-  border: 1px solid #000000;
+  /*border: 1px solid #000000;*/
   -webkit-border-radius: none;
      -moz-border-radius: none;
           border-radius: none;
@@ -3194,7 +3194,7 @@ button.close {
   margin-bottom: 0;
   *margin-left: .3em;
   font-size: 16px;
-  font-family:"Workbench";
+  font-family:"Rubik Dirt";
   line-height: 20px;
   color: #333333;
   text-align: center;
