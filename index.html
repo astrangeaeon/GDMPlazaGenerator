@@ -116,13 +116,17 @@ background-color: purple;
 	<tr>
 	</table>
 -->
+<div style="text-align:center;">
 <img src="img/ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" style="text-align:left;">
 <img src="img/ininterlinksyouthunder_constructionA.gif" alt="Rainbow Construction" style="text-align:center;">	
 <img src="img/ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" style="text-align:right;">
-<div id="placeholder" style="background-color:#FFF4A3;">
-  <h1>Click the Big Button to Generate a Plaza!</h1>
-  <button id="myBtn4" class="btn btn-primary btn-large">Generate Plaza</button>
 </div>
+<div id="placeholder" style="background-color:#FFF4A3; text-align:center; padding:30px;">
+  <h1 style="font-family:Freckle Face;">Click the Big Button to Generate a Plaza!</h1>
+  <button id="myBtn4" class="btn btn-primary btn-large" style="padding:30px 45px; font-size:26px;">Generate Plaza</button>
+</div>
+<marquee style="font-size:27px; line-height:1.5em;">Welcome to Starlight Harbour Mall! Pardon our dust, we're always growing...</marquee>
+<div id="plazacontent" class="hide">
 <div id="plazabox"  class="row" style="background-color:Lime;">
 <div id="featuresbox" class="span4"> 
 <h2>The plaza has at least one of the following features:</h2>
@@ -247,8 +251,9 @@ background-color: purple;
 </div>
 </div>
 </div>
+</div>
  
-<div>
+<div class="hide">
 	<h2 style="font-family:'Creepster';">Creepster</h2>
 	<h2 style="font-family:'Freckle Face';">Freckle Face</h2>
 	<h2 style="font-family:'Frijole';">Frijole</h2>
@@ -260,6 +265,14 @@ background-color: purple;
 	
 </div>
 
+<!--<button onclick="hideFunction()">Try it</button>
+
+<div id="hidetest">
+Test to see if this can be hidden
+</div>
+<br>
+<br>
+
 
 
 <p id="features"></p>
@@ -267,7 +280,7 @@ background-color: purple;
   <p id="home">Home jump</p>
   <p id="news">News jump </p>
   <p id="contact">Contact jump </p>
-  <p id="about">About jump</p>
+  <p id="about">About jump</p> -->
   
   <!--<h2 id="bottom">Bottom--you just jumped here</h2>-->
 
@@ -304,21 +317,38 @@ element3.addEventListener("click", function() {
 const element4 = document.getElementById("myBtn4");
 element4.addEventListener("click", function() {
     Roll(6, "stores", "GDMStoreNames");
+	Reroll("stores");
 	Roll(2, "sensory", "GDMPlazaSensoryDetails");
+	Reroll("sensory");
 	Roll(2, "features", "GDMPlazaFeatures");
+	Reroll("features");
 	Roll(1, "broken", "GDMBrokenStore");
+	Reroll("broken");
 	Roll(1, "corridor", "GDMCorridors");
+	Reroll("corridor");
 	Roll(2, "corridorclue", "GDMCorridorClue");
+	Reroll("corridorclue");
 	Roll(1, "trashcan", "GDMPlazaTrashCan");
+	Reroll("trashcan");
 	Roll(3, "activity", "GDMPlazaActivity");
+	Reroll("activity");
 	Roll(1, "elevator", "GDMElevatorsEscalators");
+	Reroll("elevator");
 	Roll(1, "crowd", "GDMPlazaCrowd");
+	Reroll("crowd");
 	Roll(1, "condition", "GDMPlazaCondition");
+	Reroll("condition");
 	Roll(5, "objects", "GDMPlazaOddObjects");
+	Reroll("objects");
 	Roll(5, "npcs", "GDMPlazaOddNPCs");
+	Reroll("npcs");
 	Roll(5, "npcappearance", "GDMPlazaNPCAppearance");
+	Reroll("npcappearance");
 	Roll(1, "npcprice", "GDMPlazaNPCPrice");
+	Reroll("npcprice");
 	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
+	Reroll("npcknowledge");
+	showFunction();
 });
 
 const element5 = document.getElementById("myBtn5");
@@ -409,6 +439,13 @@ element18.addEventListener("click", function() {
     Reroll("npcknowledge");
 	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
 });
+
+function showFunction() {
+  var x = document.getElementById("plazacontent");
+  x.style.display = "block";
+  
+ }
+
 
   <!--Roll(2, "stores", "GDMStoreNames"-->
   
