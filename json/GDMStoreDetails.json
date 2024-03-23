@@ -1,0 +1,76 @@
+{
+  "storedetails": [
+    {
+      "Type": "Original1",
+      "Probability": 1,
+      "names": [
+        {"Name": "Power is out; there are no lights inside", "Probability": 1},
+        {"Name": "The store is in construction; planks and tools are everywhere", "Probability": 1},
+        {"Name": "Ooze is falling from the ceiling", "Probability": 1},
+        {"Name": "Police tape bars the entrance", "Probability": 1},
+        {"Name": "The store has inappropriate holiday decorations", "Probability": 1},
+        {"Name": "The store is empty, no objects are found inside", "Probability": 1}
+      ]
+    },
+       {
+      "Type": "Original2",
+      "Probability": 1,
+      "names": [
+        {"Name": "A phone is ringing inside; the Friend is calling", "Probability": 1},
+        {"Name": "There's a caterpillar colony invasion on the ceiling", "Probability": 1},
+        {"Name": "A miniature train runs on the walls", "Probability": 1},
+        {"Name": "The store is much too small", "Probability": 1},
+        {"Name": "There's a jingle on a loop inside", "Probability": 1},
+        {"Name": "There are Mall banknotes everywhere", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Original3",
+      "Probability": 1,
+      "names": [
+        {"Name": "The store is closed for fumigation", "Probability": 1},
+        {"Name": "The store is inside an elevator", "Probability": 1},
+        {"Name": "The store is much bigger on the inside", "Probability": 1},
+        {"Name": "Every word inside is in a foreign language", "Probability": 1},
+        {"Name": "Pipes are leaking inside the store", "Probability": 1},
+        {"Name": "A wall has crumbled, the next store is visible", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Original4",
+      "Probability": 1,
+      "names": [
+        {"Name": "The store seems made from stone", "Probability": 1},
+        {"Name": "There are cameras with eyes on the walls", "Probability": 1},
+        {"Name": "The walls are mirrors", "Probability": 1},
+        {"Name": "The floor is sticky", "Probability": 1},
+        {"Name": "A big sale is going on", "Probability": 1},
+        {"Name": "The store is squatted by hobos", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Original5",
+      "Probability": 1,
+      "names": [
+        {"Name": "The store has recently replaced another store", "Probability": 1},
+        {"Name": "There is a stained glass storefront", "Probability": 1},
+        {"Name": "There are growling, fur walls", "Probability": 1},
+        {"Name": "The neons blink in Morse code", "Probability": 1},
+        {"Name": "Everything in the store is green colored", "Probability": 1},
+        {"Name": "There's a very low ceiling", "Probability": 1}
+      ]
+    },
+     {
+      "Type": "Original6",
+      "Probability": 1,
+      "names": [
+        {"Name": "The store is squatted by Free From Green!", "Probability": 1},
+        {"Name": "The store is squatted by Mannequins for Freedom", "Probability": 1},
+        {"Name": "The store is squatted by Collectors", "Probability": 1},
+        {"Name": "The store is squatted by the Council of Objects", "Probability": 1},
+        {"Name": "Clerks and clients are ghosts with limited dialogue", "Probability": 1},
+        {"Name": "The furniture and people are made of flat cardboard, like a theater setting", "Probability": 1}
+      ]
+    }
+  ]
+}
