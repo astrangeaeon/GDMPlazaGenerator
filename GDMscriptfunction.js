@@ -42,11 +42,38 @@ let url = `https://astrangeaeon.github.io/GDMPlazaGenerator/json/${table}.json`;
 			   //Put the info in the console 
 			//	console.log("StoreTypes: "+totalStoreTypes+" // StoreNames: "+totalStoreNames);
 			console.log("Selected Store -- "+jsonData[category][selectedStoreType].Type+": "+jsonData[category][selectedStoreType].names[selectedStoreName].Name)
-		   var str = ""+jsonData[category][selectedStoreType].Type+": "+jsonData[category][selectedStoreType].names[selectedStoreName].Name
+		  // var str = ""+jsonData[category][selectedStoreType].Type+": "+jsonData[category][selectedStoreType].names[selectedStoreName].Name
 		   		  // var str = document.createTextNode(jsonData[category][selectedStoreType].Type+": "+jsonData[category][selectedStoreType].names[selectedStoreName].Name+"<br />");
-			var lineBreak = document.createElement("p");
-			lineBreak.textContent=str;
-               document.getElementById(category).appendChild(lineBreak);
+			//var lineBreak = document.createElement("p");
+			//lineBreak.textContent=str;
+              // document.getElementById(category).appendChild(lineBreak);
+			   
+			   
+			   var strCategory = jsonData[category][selectedStoreType].Type;
+			   var strDetails = jsonData[category][selectedStoreType].names[selectedStoreName].Name;
+			   
+			   var printCategory = document.createElement("h6");
+			   var printDetails = document.createElement("div");
+			   
+			   printCategory.textContent = strCategory;
+			   printDetails.textContent = strDetails;
+			   
+			   document.getElementById(category).appendChild(printCategory);
+			   document.getElementById(category).appendChild(printDetails);
+			 
+			   var copyStr = ""+jsonData[category][selectedStoreType].Type+": "+jsonData[category][selectedStoreType].names[selectedStoreName].Name;
+			   console.log("Copy Str test:"+copyStr);
+			   var printCopy = document.createElement("div");
+			   console.log("Paragraph element created:", printCopy);
+			   printCopy.innerHTML = copyStr;
+			   console.log("Paragraph content set:", copyStr);
+			   //printCopy.textContent = copyStr;
+			   //printCopy.style.display = "div";
+			   document.getElementById("Copy"+category).appendChild(printCopy);
+			   console.log("Paragraph appended to DOM:", printCopy);
+			   //var breaker = document.createElement("br");
+			   //document.getElementById("Copy"+category).appendChild(breaker);
+			  
 		   }
 		   //how do I make the "we3example2" variable so I can set it with each different button? if I switch it around
 		   //it will change what gets generated based on the html, i.e., we3example is stores, we3example2 is plaze feature
@@ -65,7 +92,41 @@ function getRandomInt(max) {
 
 function Reroll(category) {
 	document.getElementById(category).innerHTML = "";
+	document.getElementById("Copy"+category).innerHTML = "";
 }
+
+function handleCopyTextFromParagraph() {
+  const cb = navigator.clipboard;
+  const paragraph = document.querySelector('div.copytest');
+  cb.writeText(paragraph.innerText).then(() => snackbar());
+}
+
+function snackbar() {
+	var x = document.getElementById("snackbar");
+	x.className = "show";
+	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+//function copyToClipboard(text) {
+  //navigator.clipboard.writeText(text)
+//.then(() => {
+  //console.log(`Copied text to clipboard: ${text}`);
+  //alert(`Copied text to clipboard: ${text}`);
+//})
+//.catch((error) => {
+  //console.error(`Could not copy text: ${error}`);
+//});
+//}
+
+//function CopyToClipboard(id)
+//{
+//var r = document.createRange();
+//r.selectNode(document.getElementById(id));
+//window.getSelection().removeAllRanges();
+//window.getSelection().addRange(r);
+//document.execCommand('copy');
+//window.getSelection().removeAllRanges();
+//}
 
 //Roll(2, "stores", "GDMStoreNames");
 
