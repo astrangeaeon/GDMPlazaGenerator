@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="GDM Plaza Generator" />
+  <meta charset="utf-8">
+  <title>GDM Plaza Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+	<script src="https://kit.fontawesome.com/940c24f2ca.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Creepster&family=Freckle+Face&family=Frijole&family=Knewave&family=Libre+Barcode+39+Text&family=Neonderthaw&family=Rubik+Dirt&family=Turret+Road:wght@200;300;400;500;700;800&family=Workbench&display=swap" rel="stylesheet">
+  <script src="GDMscriptfunction.js">
+  
+  function myFunction() {
+  }
+  </script>
+  <style>
+	table, th, td {
+	border:1px solid black;
+	border-collapse: collapse;
+	border-style: inset;
+	}
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  <!--background-color: rgba(40, 40, 40, 0.5);-->
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lime;
+  color: black;
+}
+
+
+div.mycontainer {
+  width:50%;  
+  float:left;
+}
+
+
+	
+#placeholder {
+background-color: powderblue;
+}
+
+#features {
+background-color: yellow;
+}
+
+#sensory {
+background-color: purple;
+
+}-->
+  </style>
+  
+</head>
+
+<body class="well" style="background-color:green;">
+  <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <li style="float:right;"><a href="https://comemartin.itch.io/green-dawn-mall"><img src="img/GDMimage.png" alt="GDM" width="52" height="71"></a></li>
+  <li style="float:right; color:olive; font-family:Freckle Face;">A fan created<br> generator for</li>
+</ul>
+<div class="container">
+ 
+ 
+<marquee style="font-size:27px; line-height:1.5em; color:yellow;">Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:33...the Mall is OPEN FOR BUSINESS!...Find what you're looking for at the Starlight Harbour Mall...Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:34...the Mall is OPEN FOR BUSINESS!!...Find what you're looking for at the Starlight Harbour Mall...Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:35...the Mall is OPEN FOR BUSINESS!!!...Find what you're looking for at the Starlight Harbour Mall...You'll never want to leave...Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:36...the Mall is OPEN FOR BUSINESS!!!!...Find what you're looking for at the Starlight Harbour Mall...</marquee>
+
+<div class="row" style="text-align:center; font-family:neonderthaw; color:cyan; ">
+<p style="text-align:center; font-size:50px; padding-right: 3cm; margin-bottom:0px;">|Starlight</p>
+<p style="text-align:center; font-size:50px; margin-top: -30px;">|Harbour</p>
+<p style="text-align:center; font-size:50px; padding-left: 3cm; margin-top:-46px;">|Mall</p>
+<!--<div id="starlight" class="span4;">
+<h1 style="color:cyan;">Starlight</h1>
+</div>
+<div id="harbour" class="span4;">
+<h1 style="color:cyan;">Harbour</h1>
+</div>
+<div id="mall" class="span4;">
+<h1 style="color:cyan;">Mall</h1>
+</div>-->
+<!--<h1 style="color:cyan; font-family:neonderthaw;">Starlight Harbour Mall</h1>-->
+</div>
+<!--<marquee style="font-size:27px; line-height:1.5em; color:yellow;">Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:33...the Mall is OPEN FOR BUSINESS!...Find what you're looking for at the Starlight Harbour Mall...Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:34...the Mall is OPEN FOR BUSINESS!!...Find what you're looking for at the Starlight Harbour Mall...Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:35...the Mall is OPEN FOR BUSINESS!!!...Find what you're looking for at the Starlight Harbour Mall...You'll never want to leave...Welcome to the Starlight Harbour Mall! Pardon our dust, we're always growing...The local time is 03:36...the Mall is OPEN FOR BUSINESS!!!!...Find what you're looking for at the Starlight Harbour Mall...</marquee>-->
+<div id="buttonbox" class="row" style="background-color:rgba(30, 30, 30, 50); text-align:center; padding:30px; margin-left:400px; margin-right:400px;">
+	<div class="col-12">
+	<h1 style="font-family:Freckle Face; color:#E238EC; text-shadow: 2px 2px 4px #00FF00;">Click a Button to Get Started!</h1>
+  <br>
+  <br>
+  <button id="myBtn4" class="btn btn-primary btn-large" style="padding:30px 45px; font-size:26px; box-shadow: 0 0 5px lime, 0 0 25px lime, 0 0 50px lime, 0 0 200px lime;">Generate Plaza</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button id="myBtn4" class="btn btn-primary btn-small disabled" style="padding:30px 45px; font-size:26px;">Generate <br> Food Court</button>
+  <h1 style="font-family:Freckle Face; color:#E238EC; text-shadow: 2px 2px 4px #00FF00;">COMING SOON!</h1>
+	</div>
+</div>
+<br>
+
+<br>
+<br>
+
+<div style="text-align:center;">
+<img src="img/ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" style="text-align:left;">
+<img src="img/ininterlinksyouthunder_constructionA.gif" alt="Rainbow Construction" style="text-align:center;">	
+<img src="img/ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" style="text-align:right;">
+</div>
+
+<!--new stuff breaker-->
+
+
+
+<!--<button onclick="handleCopyTextFromParagraph()">Copy your plaza to clipboard</button>-->
+
+<div id="contentcontainer" class="container hide" style="background-color:black;">
+<div id="plazaheader" class="row">
+	<div id="leftstar" class="col" style="text-align:right">
+		<img src="img/flashingrainbowstar.gif" alt="Flashing Rainbow Star Left" width="52" height="71">
+	</div>
+	<div id="plazedetailsheader" class="col" style="text-align:center; font-family:Freckle Face; text-shadow: 2px 2px 4px #FFF;">
+		<h2 style="color:lime; font-size:60px;">Plaza Details</h2>
+	</div>
+	<div id="rightstar" class="col text-left">
+		<img src="img/flashingrainbowstar.gif" alt="Flashing Rainbow Star Right" width="52" height="71">
+	</div>
+</div>
+<div class="row">
+	<div id="subconditionboxspan" class="col-lg-6">
+		<div class="slim-item-box" style="border:1px solid yellow;">
+			<span class="item-title" style="background-color:yellow;">Plaza Condition</span>
+			<span class="reroll-btn" id="myBtn13"><i class="fa-solid fa-arrows-rotate" style="color: #fff;"></i></span>
+			<span id="condition" class="item-results"></span>
+		</div>
+	</div>
+	<div id="subcrowdboxspan" class="col-lg-6">
+		<div class="slim-item-box" style="border:1px solid yellow;">
+			<span class="item-title" style="background-color:yellow;">Crowd Level</span>
+			<span class="reroll-btn" id="myBtn12"><i class="fa-solid fa-arrows-rotate" style="color: #fff;"></i></span>
+			<span id="crowd" class="item-results"></span>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div id="subcorridorboxspan" class="col-lg-6">
+		<div class="slim-item-box" style="border:1px solid yellow;">
+			<span class="item-title" style="background-color:yellow;">Corridors</span>
+			<span class="reroll-btn" id="myBtn6"><i class="fa-solid fa-arrows-rotate" style="color: #fff;"></i></span>
+			<span id="corridor" class="item-results"></span>
+		</div>
+	</div>
+	<div id="subelevatorboxspan" class="col-lg-6">
+		<div class="slim-item-box" style="border:1px solid yellow;">
+			<span class="item-title" style="background-color:yellow;">Elevators/Escalators</span>
+			<span class="reroll-btn" id="myBtn10"><i class="fa-solid fa-arrows-rotate" style="color: #fff;"></i></span>
+			<span id="elevator" class="item-results"></span>
+		</div>
+	</div>
+</div>
+
+<div class="row ">
+	<div id="standoutcorridors" class="col-lg-6">
+		<div class="item-box" style="background-color:yellow">
+			<span class="item-title" style="background-color:#728FCE;">Some of the corridors stand out</span>
+			<span class="reroll-btn" id="myBtn7"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="corridorclue" class="item-results" style="background-color:yellow;"></div>
+		</div>
+	</div>
+	<div id="elevatorsurprisebox" class="col-lg-6">
+		<div class="item-box" style="background-color:yellow">
+		<span class="reroll-btn" id="myBtn11"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<h4>If there's an elevator</h4>
+			<span class="item-title" style="background-color:#728FCE;">It may have a surprise</span>
+			
+			<div id="elevatorsurprise" class="item-results" style="background-color:yellow;"></div>
+		</div>
+	</div>
+</div>
+<br>
+<div>
+<h3 style="text-align:center; color:#FFF; font-size:40px;">The plaza probably has at least one of the following of each</h3>
+</div>
+<br>
+
+<div class="row ">
+	<div id="plazafeatures" class="col-lg-4">
+		<div class="item-box" style="background-color:lime">
+			<span class="item-title" style="background-color:cyan;">Feature</span>
+			<span class="reroll-btn" id="myBtn2"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="features" class="item-results" style="background-color:lime;"></div>
+		</div>
+	</div>
+	<div id="sensorydetail" class="col-lg-4">
+		<div class="item-box" style="background-color:lime">
+			<span class="reroll-btn" id="myBtn3"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<span class="item-title" style="background-color:cyan;">Sensory Detail</span>
+			<div id="sensory" class="item-results" style="background-color:lime;"></div>
+		</div>
+	</div>
+	<div id="activitybox" class="col-lg-4">
+		<div class="item-box" style="background-color:lime">
+			<span class="reroll-btn" id="myBtn9"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<span class="item-title" style="background-color:cyan;">Goings On</span>
+			<div id="activity" class="item-results" style="background-color:lime;"></div>
+		</div>
+	</div>
+</div>
+
+<br>
+<div>
+<h3 style="text-align:center; color:#FFF; font-size:40px;">What's a mall without stores?</h3>
+</div>
+<br>
+
+<div class="row ">
+	<div id="storefeatures" class="col-lg-6">
+		<div class="item-box" style="background-color:#FF77FF">
+			<span class="item-title" style="background-color:#FE632A;">Stores in the Plaza</span>
+			<span class="reroll-btn" id="myBtn"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="stores" class="item-results" style="background-color:#FF77FF;"></div>
+		</div>
+	</div>
+	<div id="storestatus" class="col-lg-3">
+		<div class="item-box" style="background-color:#FF77FF">
+			<span class="reroll-btn" id="myBtn5"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<h4>One or two of the stores may be</h4>
+			<span class="item-title" style="background-color:#FE632A;">Out of Business</span>
+			<h4>the space is</h4>
+			<div id="broken" class="item-results" style="background-color:#FF77FF;"></div>
+		</div>
+	</div>
+	<div id="storedetail" class="col-lg-3">
+		<div class="item-box" style="background-color:#FF77FF">
+			<span class="reroll-btn" id="myBtn19"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<h4>One of the stores might have something</h4>
+			<span class="item-title" style="background-color:#FE632A;">Weird</span>
+			<h4>What's happening?</h4>
+			<div id="storedetails" class="item-results" style="background-color:#FF77FF;"></div>
+		</div>
+	</div>
+</div>
+
+
+<br>
+<div>
+<h3 style="text-align:center; color:#FFF; font-size:40px;">Need to find that perfect something?</h3>
+</div>
+<br>
+
+<div class="row ">
+	<div id="trashfeatures" class="col-lg-6">
+		<div class="item-box" style="background-color:#56A5EC">
+			<span class="item-title" style="background-color:yellow;">Find this in the trash can</span>
+			<span class="reroll-btn" id="myBtn8"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="trashcan" class="item-results" style="background-color:#56A5EC;"></div>
+		</div>
+	</div>
+	<div id="oddobject" class="col-lg-6">
+		<div class="item-box" style="background-color:#56A5EC">
+			<span class="reroll-btn" id="myBtn14"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<span class="item-title" style="background-color:yellow;">Random odd objects</span>
+			<div id="objects" class="item-results" style="background-color:#56A5EC;"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<br>
+<div>
+<h3 style="text-align:center; color:#FFF; font-size:40px;">You never know who you'll meet at the Mall</h3>
+</div>
+<br>
+
+<div class="row ">
+	<div id="oddnpc" class="col-lg-6">
+		<div class="item-box" style="background-color:salmon">
+			<span class="item-title" style="background-color:#FF00FF;">Odd NPC</span>
+			<span class="reroll-btn" id="myBtn15"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="npcs" class="item-results" style="background-color:salmon;"></div>
+		</div>
+	</div>
+	<div id="oddnpcdetails" class="col-lg-6">
+		<div class="item-box" style="background-color:salmon">
+			<span class="reroll-btn" id="myBtn16"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<span class="item-title" style="background-color:#98FF98;">NPC Details</span>
+			<div id="npcappearance" class="item-results" style="background-color:salmon;"></div>
+		</div>
+	</div>
+</div>
+
+<div>
+<h3 style="text-align:center; color:#FFF; font-size:40px;">They may know something useful about the Mall</h3>
+</div>
+
+<div class="row">
+	<div id="npcknowledgecontainer" class="col-lg-6">
+		<div class="slim-item-box" style="border:1px solid salmon;">
+			<span class="item-title" style="background-color:salmon;">NPC Knowledge or Secret</span>
+			<span class="reroll-btn" id="myBtn18"><i class="fa-solid fa-arrows-rotate" style="color: #fff;"></i></span>
+			<span id="npcknowledge" class="item-results"></span>
+		</div>
+	</div>
+	<div id="npcpricecontainer" class="col-lg-6">
+		<div class="slim-item-box" style="border:1px solid salmon;">
+			<span class="item-title" style="background-color:salmon;">NPC Price</span>
+			<span class="reroll-btn" id="myBtn17"><i class="fa-solid fa-arrows-rotate" style="color: #fff;"></i></span>
+			<span id="npcprice" class="item-results"></span>
+		</div>
+	</div>
+</div>
+
+<!--<button onclick="handleCopyTextFromParagraph()">Copy your plaza to clipboard</button>-->
+
+<div>
+<h3 style="text-align:center; color:#FFF; font-size:40px;">Click below to copy your plaza to clipboard</h3>
+</div>
+
+<div id="airplanecontainer" style="text-align:center";>
+<input type="checkbox" name="send" id="send" onclick="handleCopyTextFromParagraph()" style="text-align:center";/>
+<label for="send" class="send">
+	<div class="rotate">
+		<div class="move">
+			<div class="part left"></div>
+			<div class="part right"></div>
+		</div>
+	</div>
+</label>
+</div>
+
+
+<!--new stuff breaker-->
+
+<div id="plazacontent" class="copytest">
+<div id="plazabox"  class="row" style="background-color:Lime;">
+<div id="featuresbox" class="span4"> 
+<h2>>> <b>The plaza has at least one of the following features:</b></h2>
+	<!--<button id="myBtn2">Reroll Plaza Feature</button>-->
+<div id="Copyfeatures" style="background-color:Aqua;">
+</div><br />
+</div>
+<div id="sensorybox" class="span4">
+<h2>>> The plaza has at least one of the following sensory details:</h2>
+	<!--<button id="myBtn3">Reroll Plaza Sensory Detail</button>-->
+ <div id="Copysensory" style="background-color:Aqua;">
+</div><br />
+</div>	
+<div id="activitybox" class="span4">
+<h2>>>The plaza may have one or more of the following things going on:</h2>
+	<!--<button id="myBtn9">Reroll Plaza Other Activity</button>-->
+<div id="Copyactivity" style="background-color:Aqua;">
+</div><br />
+</div>
+<div id="crowdandcondtionbox" class="row" style ="background-color:LightSeaGreen;">
+<div id="crowdbox" class="span6">
+<h2>>>The plaza's crowd level:</h2>
+<!--<button id="myBtn12">Reroll Crowd Level</button>-->
+<div id="Copycrowd" style="background-color:PaleGreen;">
+</div><br />
+</div>
+<div id="conditionbox" class="span6">
+<h2>>>The plaza's condition:</h2>
+<!--<button id="myBtn13">Reroll Plaza Condition</button>-->
+<div id="Copycondition" style="background-color:PaleGreen;">
+</div><br />
+</div>
+</div>
+
+<div id="storesbox" class="row" style="background-color:Cornsilk";>
+<div id="plazastoresbox" class="span6">
+<h2>>>Stores in the Plaza</h2>
+<!--<button id="myBtn">Reroll Store Names</button>-->
+<div id="Copystores" style="background-color:pink;">
+</div><br />
+</div>
+<div id="brokenbox" class="span6">
+<h2>>>One or two of the stores may be out of business and are:</h2>
+<!--<button id="myBtn5">Reroll Broken Store</button>-->
+<div id="Copybroken" style="background-color:pink;">
+</div><br />
+</div>
+<div id="storedetailsbox" class="span6">
+<h2>>>One of the stores may have something weird going on:</h2>
+<!--<button id="myBtn19">Reroll Broken Store</button>-->
+<div id="Copystoredetails" style="background-color:pink;">
+</div><br />
+</div>
+</div>
+<div id="corridorbox" class="row" style="background-color:Magenta;">
+<div id="plazacorridorbox" class="span3">
+<h2>>>The plaza has:</h2>
+<!--<button id="myBtn6">Reroll Corridor</button>-->
+<div id="Copycorridor" style="background-color:coral;">
+</div><br />
+</div>
+<div id="corridorcluebox" class="span3">
+<h2>>>Some of the corridors might stand out. Here is how:</h2>
+<!--<button id="myBtn7">Reroll Corridor Clue</button>-->
+<div id="Copycorridorclue" style="background-color:coral;">
+</div><br />
+</div>
+<div id="elevatorbox" class="span3">
+<h2>>>The plaza may have an elevator or escalator:</h2>
+<!--<button id="myBtn10">Reroll Elevator or Escalator</button>-->
+<div id="Copyelevator" style="background-color:coral;">
+</div><br />
+</div>
+<div id="elevatorsurprisebox" class="span3">
+<h2>>>If there's an elevator, it may have a surprise:</h2>
+<!--<button id="myBtn11">Reroll Elevator Surprise</button>-->
+<div id="Copyelevatorsurprise" style="background-color:coral;">
+</div><br />
+</div>
+</div>
+<div id="trashcanbox" class="row" style="background-color:Indigo";>
+<div id="plazatrashcanbox" class="span12">
+<h2>>>If there's a trash can, here is what is in it:</h2>
+<!--<button id="myBtn8">Reroll Trash Can</button>-->
+<div id="Copytrashcan" style="background-color:GreenYellow;">
+</div><br />
+</div>
+</div>
+  <div id="objectsbox" class="row" style="background-color:CornflowerBlue;">
+  <div id="plazaobjectsbox" class="span12">
+  <h2>>>If you need a random odd object, pick one of these:</h2>
+<!--<button id="myBtn14">Reroll Odd Object</button>-->
+<div id="Copyobjects" style="background-color:SpringGreen;">
+</div><br />
+</div> 
+</div>
+<div id="npcbox" class="row" style="background-color:Chocolate;">
+<div id="npcsbox" class="span3">
+<h2>>>If you need a random odd NPC, pick one of these or consider making them a group:</h2>
+<!--<button id="myBtn15">Reroll Odd NPC</button>-->
+<div id="Copynpcs" style="background-color:LimeGreen;">
+</div><br />
+</div>
+<div id="npcappearancebox" class="span3">
+<h2>>>If you need a few details to help describe an odd NPC, use a few of these:</h2>
+<!--<button id="myBtn16">Reroll NPC Appearance</button>-->
+<div id="Copynpcappearance" style="background-color:LimeGreen;">
+</div><br />
+</div>
+<div id="npcpricebox" class="span3">
+<h2>>>There's a chance an NPC knows something useful about the Mall. If they do, they:</h2>
+<!--<button id="myBtn17">Reroll NPC Price</button>-->
+<div id="Copynpcprice" style="background-color:LimeGreen;">
+</div><br />
+</div>
+<div id="npcknowledgebox" class="span3">
+<h2>>>Their knowledge concerns:</h2>
+<!--<button id="myBtn18">Reroll NPC Knowledge</button>-->
+<div id="Copynpcknowledge" style="background-color:LimeGreen;">
+</div><br />
+</div>
+</div>
+</div>
+</div>
+
+<!--<button onclick="snackbar()">Show Snackbar</button>-->
+<div id="snackbar">Plaza Copied!</div>
+
+
+<div class="hide">
+	<h2 style="font-family:'Creepster';">Creepster</h2>
+	<h2 style="font-family:'Freckle Face';">Freckle Face</h2>
+	<h2 style="font-family:'Frijole';">Frijole</h2>
+	<h2 style="font-family:'Turret Road';">Turret Road</h2>
+	<h2 style="font-family:'Libre Barcode 39 Text';">Libre Barcode 39 Text</h2>
+	<h2 style="font-family:'Knewave';">Knewave</h2>
+	<h2 style="font-family:'Rubik Dirt';">Rubik Dirt</h2>
+	<h2 style="font-family:'Workbench';">Workbench</h2>
+	
+</div>
+</div>
+<div id="bottompikachu" class="hide" style="text-align:center;">
+<img src="img/ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" style="text-align:left;">
+<img src="img/ininterlinksyouthunder_constructionA.gif" alt="Rainbow Construction" style="text-align:center;">	
+<img src="img/ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" style="text-align:right;">
+</div>
+
+<!--<button onclick="hideFunction()">Try it</button>
+
+<div id="hidetest">
+Test to see if this can be hidden
+</div>
+<br>
+<br>
+
+
+
+<p id="features"></p>
+  
+  <p id="home">Home jump</p>
+  <p id="news">News jump </p>
+  <p id="contact">Contact jump </p>
+  <p id="about">About jump</p> -->
+  
+  <!--<h2 id="bottom">Bottom--you just jumped here</h2>-->
+
+<!--
+<script>
+ document.getElementById("btn-stores").addEventListener("click", function() {
+  console.log("I click the button");
+  var numrolls = document.querySelector("#btn-stores")dataset.numrolls;
+  var category = document.querySelector("#btn-stores")dataset.category;
+  var jsonFile = document.querySelector("#btn-stores")dataset.json;
+  
+  Roll(numrolls,category,jsonFile)
+})
+-->
+<script>
+const element = document.getElementById("myBtn");
+element.addEventListener("click", function() {
+    Reroll("stores");
+	Roll(6, "stores", "GDMStoreNames");
+});
+  
+const element2 = document.getElementById("myBtn2");
+element2.addEventListener("click", function() {
+    Reroll("features");
+	Roll(2, "features", "GDMPlazaFeatures");
+});
+
+const element3 = document.getElementById("myBtn3");
+element3.addEventListener("click", function() {
+    Reroll("sensory");
+	Roll(2, "sensory", "GDMPlazaSensoryDetails");
+});
+
+const element4 = document.getElementById("myBtn4");
+element4.addEventListener("click", function() {
+    Roll(6, "stores", "GDMStoreNames");
+	Reroll("stores");
+	Roll(2, "sensory", "GDMPlazaSensoryDetails");
+	Reroll("sensory");
+	Roll(2, "features", "GDMPlazaFeatures");
+	Reroll("features");
+	Roll(1, "broken", "GDMBrokenStore");
+	Reroll("broken");
+	Roll(1, "storedetails", "GDMStoreDetails");
+	Reroll("storedetails");
+	Roll(1, "corridor", "GDMCorridors");
+	Reroll("corridor");
+	Roll(2, "corridorclue", "GDMCorridorClue");
+	Reroll("corridorclue");
+	Roll(1, "trashcan", "GDMPlazaTrashCan");
+	Reroll("trashcan");
+	Roll(3, "activity", "GDMPlazaActivity");
+	Reroll("activity");
+	Roll(1, "elevator", "GDMElevatorsEscalators");
+	Reroll("elevator");
+	Roll(1, "elevatorsurprise", "GDMElevatorSurprise");
+	Reroll("elevatorsurprise");
+	Roll(1, "crowd", "GDMPlazaCrowd");
+	Reroll("crowd");
+	Roll(1, "condition", "GDMPlazaCondition");
+	Reroll("condition");
+	Roll(5, "objects", "GDMPlazaOddObjects");
+	Reroll("objects");
+	Roll(5, "npcs", "GDMPlazaOddNPCs");
+	Reroll("npcs");
+	Roll(5, "npcappearance", "GDMPlazaNPCAppearance");
+	Reroll("npcappearance");
+	Roll(1, "npcprice", "GDMPlazaNPCPrice");
+	Reroll("npcprice");
+	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
+	Reroll("npcknowledge");
+	showFunction();
+});
+
+const element5 = document.getElementById("myBtn5");
+element5.addEventListener("click", function() {
+    Reroll("broken");
+	Roll(1, "broken", "GDMBrokenStore");
+});
+
+const element19 = document.getElementById("myBtn19");
+element19.addEventListener("click", function() {
+    Reroll("storedetails");
+	Roll(1, "storedetails", "GDMStoreDetails");
+});
+
+const element6 = document.getElementById("myBtn6");
+element6.addEventListener("click", function() {
+    Reroll("corridor");
+	Roll(1, "corridor", "GDMCorridors");
+});
+
+const element7 = document.getElementById("myBtn7");
+element7.addEventListener("click", function() {
+    Reroll("corridorclue");
+	Roll(2, "corridorclue", "GDMCorridorClue");
+});
+
+const element8 = document.getElementById("myBtn8");
+element8.addEventListener("click", function() {
+	Reroll("trashcan");
+	Roll(1, "trashcan", "GDMPlazaTrashCan");
+});
+<!--});
+<!--element8.addEventListener("click", function() {
+	<!--Roll(1, "trashcan", "GDMPlazaTrashCan");
+<!--});
+
+
+const element9 = document.getElementById("myBtn9");
+element9.addEventListener("click", function() {
+    Reroll("activity");
+	Roll(3, "activity", "GDMPlazaActivity");
+});
+
+const element10 = document.getElementById("myBtn10");
+element10.addEventListener("click", function() {
+    Reroll("elevator");
+	Roll(1, "elevator", "GDMElevatorsEscalators");
+});
+
+const element11 = document.getElementById("myBtn11");
+element11.addEventListener("click", function() {
+    Reroll("elevatorsurprise");
+	Roll(1, "elevatorsurprise", "GDMElevatorSurprise");
+});
+
+const element12 = document.getElementById("myBtn12");
+element12.addEventListener("click", function() {
+    Reroll("crowd");
+	Roll(1, "crowd", "GDMPlazaCrowd");
+});
+
+const element13 = document.getElementById("myBtn13");
+element13.addEventListener("click", function() {
+    Reroll("condition");
+	Roll(1, "condition", "GDMPlazaCondition");
+});
+
+const element14 = document.getElementById("myBtn14");
+element14.addEventListener("click", function() {
+    Reroll("objects");
+	Roll(5, "objects", "GDMPlazaOddObjects");
+});
+
+const element15 = document.getElementById("myBtn15");
+element15.addEventListener("click", function() {
+    Reroll("npcs");
+	Roll(5, "npcs", "GDMPlazaOddNPCs");
+});
+
+const element16 = document.getElementById("myBtn16");
+element16.addEventListener("click", function() {
+    Reroll("npcappearance");
+	Roll(5, "npcappearance", "GDMPlazaNPCAppearance");
+});
+
+const element17 = document.getElementById("myBtn17");
+element17.addEventListener("click", function() {
+    Reroll("npcprice");
+	Roll(1, "npcprice", "GDMPlazaNPCPrice");
+});
+
+const element18 = document.getElementById("myBtn18");
+element18.addEventListener("click", function() {
+    Reroll("npcknowledge");
+	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
+});
+
+function showFunction() {
+  var x = document.getElementById("contentcontainer");
+  x.style.display = "block";
+  var x = document.getElementById("bottompikachu");
+  x.style.display = "block";
+  
+ }
+
+
+  <!--Roll(2, "stores", "GDMStoreNames"-->
+  
+</script>
+
+</body>
+</html>
+</html>

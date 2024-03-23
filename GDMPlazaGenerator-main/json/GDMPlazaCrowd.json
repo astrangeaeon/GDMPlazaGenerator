@@ -1,0 +1,16 @@
+{
+  "crowd": [
+    {
+      "Type": "Crowd Size",
+      "Probability": 1,
+      "names": [
+        {"Name": "abandoned, no other shoppers at all", "Probability": 1},
+        {"Name": "a solitary shopper", "Probability": 1},
+        {"Name": "a group of friends", "Probability": 1},
+        {"Name": "a few families", "Probability": 1},
+        {"Name": "a bustling crowd", "Probability": 1},
+        {"Name": "teeming with shoppers", "Probability": 1}
+      ]
+    }
+  ]
+}

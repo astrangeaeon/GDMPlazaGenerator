@@ -1,0 +1,76 @@
+{
+  "trashcan": [
+    {
+      "Type": "Refuse",
+      "Probability": 1,
+      "names": [
+        {"Name": "Dinosaur sized bone with bits of meat and sinew", "Probability": 1},
+        {"Name": "Soda-stained paperback with return receipt as bookmark", "Probability": 1},
+        {"Name": "Tomorrow’s edition of Green Dawn Mall Gazette", "Probability": 1},
+        {"Name": "Packaging for an object from random store", "Probability": 1},
+        {"Name": "Bloodstained dress shirt / employee uniform for random store", "Probability": 1},
+        {"Name": "Two halves of a snipped Mastercard for Collector Helmut Brand", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Product",
+      "Probability": 1,
+      "names": [
+        {"Name": "A discarded wig", "Probability": 1},
+        {"Name": "A broken object from a random store", "Probability": 1},
+        {"Name": "A cursed magic shield", "Probability": 1},
+        {"Name": "A smaller trash can and roll again for what’s inside", "Probability": 1},
+        {"Name": "A left high top sneaker seeking its mate", "Probability": 1},
+        {"Name": "A raygun with no power source", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Food",
+      "Probability": 1,
+      "names": [
+        {"Name": "Cold leftover from a restaurant", "Probability": 1},
+        {"Name": "Half-filled plastic bottle of Spronk! Cola", "Probability": 1},
+        {"Name": "A bag of 2d6 soft bananas", "Probability": 1},
+        {"Name": "Completely filled with nourishing baked beans", "Probability": 1},
+        {"Name": "1d6 kids’ meals minus the toys", "Probability": 1},
+        {"Name": "5 lbs of uncooked veal in butcher paper labeled V", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Clue",
+      "Probability": 1,
+      "names": [
+        {"Name": "Jigsaw puzzle of the friend, missing a crucial piece", "Probability": 1},
+        {"Name": "Sales receipt from random store with friend’s name on it", "Probability": 1},
+        {"Name": "Strip of photo booth photos of friend with members of random faction", "Probability": 1},
+        {"Name": "Friend’s signature vape that is broken", "Probability": 1},
+        {"Name": "Polaroid of a random store (boarded up when PCs find it but graffiti in store has key/exit location)", "Probability": 1},
+        {"Name": "A cassette tape with friend’s handwriting on label", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Useful",
+      "Probability": 1,
+      "names": [
+        {"Name": "A key", "Probability": 1},
+        {"Name": "Coupon/gift certificate for object at a random store", "Probability": 1},
+        {"Name": "Random object belonging to a member of random faction", "Probability": 1},
+        {"Name": "An employee ID for a random store pinned to a uniform", "Probability": 1},
+        {"Name": "A tiny plastic skeleton that gives bad luck", "Probability": 1},
+        {"Name": "Get Away With Murder voucher stuck to bottom of tray liner", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Weird",
+      "Probability": 1,
+      "names": [
+        {"Name": "Family of computer mice in tangled nest of cords", "Probability": 1},
+        {"Name": "Garbage can is sentient and Council of Objects faction", "Probability": 1},
+        {"Name": "Trash can is actually a pipe to the lower levels", "Probability": 1},
+        {"Name": "Garbage can empties itself over random PC, says How do you like it?", "Probability": 1},
+        {"Name": "A random NPC is curled up inside hiding from something", "Probability": 1},
+        {"Name": "This trashcan is on the ceiling", "Probability": 1}
+      ]
+    }
+  ]
+}
