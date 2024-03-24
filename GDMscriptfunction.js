@@ -107,6 +107,13 @@ function snackbar() {
 	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
 
+function scrollToAnchor(anchorId) {
+  var targetDiv = document.getElementById("contentcontainer");
+  if (targetDiv) {
+    targetDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
 //function copyToClipboard(text) {
   //navigator.clipboard.writeText(text)
 //.then(() => {
