@@ -1,7 +1,7 @@
 {
   "activity": [
     {
-      "Type": "HolidayMisc",
+      "Type": "Misc Holiday",
       "Probability": 1,
       "names": [
         {"Name": "Take picture with Santa in village and tree with wrapped presents", "Probability": 1},
