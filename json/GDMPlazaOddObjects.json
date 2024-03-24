@@ -146,7 +146,7 @@
       ]
     },
     {
-      "Type": "PCDesire",
+      "Type": "PC Desire",
       "Probability": 1,
       "names": [
         {"Name": "PC 1's desired object", "Probability": 1},
