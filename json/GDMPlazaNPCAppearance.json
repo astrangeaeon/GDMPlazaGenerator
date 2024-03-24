@@ -65,7 +65,7 @@
       "Probability": 1,
       "names": [
         {"Name": "sipping a fountain drink", "Probability": 1},
-        {"Name": "eating a bag of pretzels", "Probability": 1},
+        {"Name": "eating two hot dogs at the same time", "Probability": 1},
         {"Name": "chugging a bottle of beer or wine", "Probability": 1},
         {"Name": "eating an aromatic ice cream cone", "Probability": 1},
         {"Name": "chowing on a turkey leg", "Probability": 1},
@@ -202,6 +202,18 @@
         {"Name": "boring khakis", "Probability": 1},
         {"Name": "athletic lycra", "Probability": 1},
         {"Name": "berrystained overalls", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Demeanor",
+      "Probability": 1,
+      "names": [
+        {"Name": "suffering from a terrible itch", "Probability": 1},
+        {"Name": "furious over a recent slight", "Probability": 1},
+        {"Name": "happy after finding money recently", "Probability": 1},
+        {"Name": "coughing and sneezing, incredibly contagious", "Probability": 1},
+        {"Name": "proselytizing a crackpot belief, like the Muses were demons sent to inspire men to lie", "Probability": 1},
+        {"Name": "barely keeping it together after a recent loss or disappointment", "Probability": 1}
       ]
     },
     {

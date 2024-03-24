@@ -13,7 +13,7 @@
       ]
     },
     {
-      "Type": "Timer1",
+      "Type": "Timer",
       "Probability": 1,
       "names": [
         {"Name": "Two lumberjacks sawing down a silent tree with a face that's grimacing in pain", "Probability": 1},
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "Type": "StoreFront",
+      "Type": "Storefront",
       "Probability": 1,
       "names": [
         {"Name": "Styled like a medieval castle with drawbridge and moat", "Probability": 1},
@@ -37,7 +37,7 @@
       ]
     },
     {
-    "Type": "StoreInPlaza",
+    "Type": "Store In Plaza",
       "Probability": 1,
       "names": [
         {"Name": "Has a Now Hiring sign in the window", "Probability": 1},
@@ -120,8 +120,20 @@
         {"Name": "Servant of the mall shoveling snow / snow plow", "Probability": 1}
       ]
     },
+	{
+      "Type": "Infestation",
+      "Probability": 1,
+      "names": [
+        {"Name": "Infested with hundreds of tiny snails that get everywhere", "Probability": 1},
+        {"Name": "Infested with thousands of fragrant perfume moths", "Probability": 1},
+        {"Name": "Infested with hundreds of unlucky orange ladybugs", "Probability": 1},
+        {"Name": "Infested with dozens of venom spitting toads ", "Probability": 1},
+        {"Name": "Overrun by millions of tiny fire ants", "Probability": 1},
+        {"Name": "Overrun by dozens of miniature pigs, all with a number painted on them, released as a Freed From Green! stunt", "Probability": 1}
+      ]
+    },
     {
-      "Type": "ImproverActivities",
+      "Type": "Upgrader Activities",
       "Probability": 1,
       "names": [
         {"Name": "Cleaning up faction graffiti / glitter bomb aftermath", "Probability": 1},
@@ -129,7 +141,7 @@
         {"Name": "Repair team fixing an out of order staircase", "Probability": 1},
         {"Name": "Setting up a checkpoint between plazas", "Probability": 1},
         {"Name": "Taylorism guy with stopwatch timing shoppers outside a store", "Probability": 1},
-        {"Name": "Mall Improvers working with Servants of Mall to round up Free From Green teens", "Probability": 1}
+        {"Name": "Mall Upgraders working with Servants of Mall to round up Free From Green! teens", "Probability": 1}
       ]
     }
   ]

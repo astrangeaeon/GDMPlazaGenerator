@@ -34,6 +34,7 @@
         {"Name": "a pair of oversized scissors that only cuts the invisible ties between people, like loyalty, hatred, etc.", "Probability": 1},
         {"Name": "an ice cube that doesn't melt, the Nice Cube", "Probability": 1},
         {"Name": "a dog collar that turns you into a dog when worn", "Probability": 1}
+		{"Name": "an electric rozar blade that adds hair", "Probability": 1}
       ]
     },
     {
@@ -73,7 +74,7 @@
       ]
     },
     {
-      "Type": "Original1",
+      "Type": "GDM Odd Objects 1",
       "Probability": 1,
       "names": [
         {"Name": "a bottomless bag of candies", "Probability": 1},
@@ -85,7 +86,7 @@
       ]
     },
     {
-      "Type": "Original2",
+      "Type": "GDM Odd Objects 2",
       "Probability": 1,
       "names": [
         {"Name": "a frog toy, inflatable to 10 times its size", "Probability": 1},
@@ -97,7 +98,7 @@
       ]
     },
     {
-      "Type": "Original3",
+      "Type": "GDM Odd Objects 3",
       "Probability": 1,
       "names": [
         {"Name": "a roll of Mall pennies", "Probability": 1},
@@ -109,7 +110,7 @@
       ]
     },
     {
-      "Type": "Original4",
+      "Type": "GDM Odd Objects 4",
       "Probability": 1,
       "names": [
         {"Name": "1d6 old stamps; if PC puts them on an envelope, they teleport to the written address", "Probability": 1},
@@ -121,7 +122,7 @@
       ]
     },
     {
-      "Type": "Original5",
+      "Type": "GDM Odd Objects 5",
       "Probability": 1,
       "names": [
         {"Name": "a crochet bear, respected by the Council of Objects", "Probability": 1},
@@ -133,7 +134,7 @@
       ]
     },
     {
-      "Type": "Original6",
+      "Type": "GDM Odd Objects 6",
       "Probability": 1,
       "names": [
         {"Name": "a hard hat", "Probability": 1},
@@ -180,8 +181,56 @@
         {"Name": "a bowler hat that turns the wearer black and white", "Probability": 1}
       ]
     },
+	{
+      "Type": "Pranks",
+      "Probability": 1,
+      "names": [
+        {"Name": "a tasty gum that makes you very hungry", "Probability": 1},
+        {"Name": "a very permanent marker which takes industrial strength means to erase", "Probability": 1},
+        {"Name": "a bar of soap made from poison ivy", "Probability": 1},
+        {"Name": "shrinking yellow candies make you d6 inches shorter", "Probability": 1},
+        {"Name": "Come Over Here by the Sirens vinyl 45", "Probability": 1},
+        {"Name": "a fancy box for a deck of cards with only one card in it, the Ace of Spades", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Music",
+      "Probability": 1,
+      "names": [
+        {"Name": "a cassette single of Put Another Quarter in the Swear Jar, Larry", "Probability": 1},
+        {"Name": "Saint Nora, legendary blitzpunk EP from Roomful of Farting Women", "Probability": 1},
+        {"Name": "The Revolution Will Be Compartmentalized, spoken word corporate CD", "Probability": 1},
+        {"Name": "mix-and-match vinyl record puzzle-pieces, thousands of possibilities", "Probability": 1},
+        {"Name": "Come Over Here by the Sirens vinyl 45", "Probability": 1},
+        {"Name": "Jock Jams, Volume 1 on CD", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Books",
+      "Probability": 1,
+      "names": [
+        {"Name": "a Phillip K Dick book written in braille", "Probability": 1},
+        {"Name": "a book meant for dogs, entirely based on smell", "Probability": 1},
+        {"Name": "a book of Mall Upgrader meeting minutes detailing a recent campaign", "Probability": 1},
+        {"Name": "a journal blank except for one line on the first page, Be more assertive?", "Probability": 1},
+        {"Name": "a thick book hollowed out with an odd object inside", "Probability": 1},
+        {"Name": "an abridged ABC book, with only 20 letters", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Random",
+      "Probability": 1,
+      "names": [
+        {"Name": "a glowing golf club from Taylor Swift's Eras tour", "Probability": 1},
+        {"Name": "a yellow banana shaped flask half-filled with a potent but strange flavored liquor", "Probability": 1},
+        {"Name": "a misprinted calendar from 1994 with an extra month called Tavun", "Probability": 1},
+        {"Name": "two chocolate chip pancakes in a zip lock bag", "Probability": 1},
+        {"Name": "an order of fried moths", "Probability": 1},
+        {"Name": "an extra pair of eyes", "Probability": 1}
+      ]
+    },
     {
-      "Type": "SingingEgg",
+      "Type": "Lowkey",
       "Probability": 1,
       "names": [
         {"Name": "a bird that sings beautiful songs still in the egg", "Probability": 1},

@@ -25,7 +25,7 @@
       ]
     },
     {
-      "Type": "MallRules",
+      "Type": "Mall Rules",
       "Probability": 1,
       "names": [
         {"Name": "a RELAX ad showing an inviting sofa, possibly defaced", "Probability": 1},
@@ -40,11 +40,11 @@
       "Type": "Vehicle",
       "Probability": 1,
       "names": [
-        {"Name": "Luxurious RV with hot tub", "Probability": 1},
-        {"Name": "Futuristic sports car", "Probability": 1},
+        {"Name": "Luxurious RV with hot tub with an odd NPC inside", "Probability": 1},
+        {"Name": "Futuristic sports car with mushrooms growing inside of it", "Probability": 1},
         {"Name": "Black and yellow motorcycle", "Probability": 1},
-        {"Name": "Pink pickup truck", "Probability": 1},
-        {"Name": "Brown 80’s sedan", "Probability": 1},
+        {"Name": "Pink pickup truck with an odd NPC sleeping inside", "Probability": 1},
+        {"Name": "Brown 80’s sedan with an odd item on the front passenger seat", "Probability": 1},
         {"Name": "Apache helicopter", "Probability": 1}
       ]
     },
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "Type": "PlacesToSit",
+      "Type": "Places To Sit",
       "Probability": 1,
       "names": [
         {"Name": "Uncomfortable benches", "Probability": 1},
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "Type": "Misc",
+      "Type": "Misc 1",
       "Probability": 1,
       "names": [
         {"Name": "Humongous clock with weird time", "Probability": 1},
@@ -133,7 +133,7 @@
       ]
     },
      {
-      "Type": "Misc2",
+      "Type": "Misc 2",
       "Probability": 1,
       "names": [
         {"Name": "Mortal Kombat 2 cabinet linked to another somewhere in the mall with an anonymous challenger", "Probability": 1},
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "Type": "Misc3",
+      "Type": "Misc 3",
       "Probability": 1,
       "names": [
         {"Name": "A great bell or gong in the middle of the plaza, kids daring each other to ring it", "Probability": 1},
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "Type": "Misc4",
+      "Type": "Misc 4",
       "Probability": 1,
       "names": [
         {"Name": "Small farm plot growing weed", "Probability": 1},
@@ -169,10 +169,10 @@
       ]
     },
     {
-      "Type": "Misc5",
+      "Type": "Misc 5",
       "Probability": 1,
       "names": [
-        {"Name": "Bottomless pit", "Probability": 1},
+        {"Name": "Bottomless pit with a yellow A-frame warning sign", "Probability": 1},
         {"Name": "Artificial sky ceiling", "Probability": 1},
         {"Name": "Interactive light display", "Probability": 1},
         {"Name": "Interactive water wall", "Probability": 1},
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "Type": "Misc6",
+      "Type": "Misc 6",
       "Probability": 1,
       "names": [
         {"Name": "A huge head with a face that changes every 30 seconds", "Probability": 1},

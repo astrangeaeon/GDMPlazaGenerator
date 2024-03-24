@@ -97,7 +97,7 @@
       ]
     },
     {
-      "Type": "Original1",
+      "Type": "GDM Wandering Oddities 1",
       "Probability": 1,
       "names": [
         {"Name": "a light shifter; too many claws, only visible by the way it makes light bend, curious about humans' fragility", "Probability": 1},
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "Type": "Original2",
+      "Type": "GDM Wandering Oddities 2",
       "Probability": 1,
       "names": [
         {"Name": "a plastic hound, pet of the security staff with small plastic wings", "Probability": 1},
@@ -133,7 +133,7 @@
       ]
     },
      {
-      "Type": "Original3",
+      "Type": "GDM Wandering Oddities 3",
       "Probability": 1,
       "names": [
         {"Name": "a perpetually wet person, wanting free of the curse", "Probability": 1},
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "Type": "Original4",
+      "Type": "GDM Wandering Oddities 4",
       "Probability": 1,
       "names": [
         {"Name": "1d6 cops sent to a normal mall to investigate a murder, now way over their head", "Probability": 1},
@@ -202,6 +202,30 @@
         {"Name": "a mermaid frozen in a block of ice alongside an odd object", "Probability": 1},
         {"Name": "a suspicious member of the teenage FBI looking for secret passages", "Probability": 1},
         {"Name": "a desperate fish who is a transformed collector of books", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Enlightened",
+      "Probability": 1,
+      "names": [
+        {"Name": "a bodhisattva which is a lipstick, eyeshadow and wig mannequin head", "Probability": 1},
+        {"Name": "a former Mall Upgrader who no longer believes in the Mall's purpose", "Probability": 1},
+        {"Name": "a mute Servant of the Mall who tries to help others see the truth", "Probability": 1},
+        {"Name": "a famous Collector who has renounced their collection", "Probability": 1},
+        {"Name": "a Freed From Green! teenager who has learned the truth about the Mall and dramatically changed their personality", "Probability": 1},
+        {"Name": "a sentient and wise bench that has not moved from its spot for three decades", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Triads",
+      "Probability": 1,
+      "names": [
+        {"Name": "a mannequin lingerie model, faceless but sexy body, one of the three smartest beings in the Mall", "Probability": 1},
+        {"Name": "a dog carrying a prescription for antidepressants in its mouth, one of the three kindest beings in the Mall", "Probability": 1},
+        {"Name": "an emotional support skeleton looking for its master, one of the three funniest beings in the Mall", "Probability": 1},
+        {"Name": "Fuck You Larry, one of the three most foul-mouthed beings in the Mall", "Probability": 1},
+        {"Name": "a grotesquely muscular child, one of the three strongest beings in the Mall", "Probability": 1},
+        {"Name": "Wendy the Sleepwalker, one of the three most beautiful beings in the Mall", "Probability": 1}
       ]
     },
     {

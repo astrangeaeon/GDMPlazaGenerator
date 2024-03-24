@@ -1,7 +1,7 @@
 {
   "storedetails": [
     {
-      "Type": "Original1",
+      "Type": "GDM Details 1",
       "Probability": 1,
       "names": [
         {"Name": "Power is out; there are no lights inside", "Probability": 1},
@@ -13,7 +13,7 @@
       ]
     },
        {
-      "Type": "Original2",
+      "Type": "GDM Details 2",
       "Probability": 1,
       "names": [
         {"Name": "A phone is ringing inside; the Friend is calling", "Probability": 1},
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "Type": "Original3",
+      "Type": "GDM Details 3",
       "Probability": 1,
       "names": [
         {"Name": "The store is closed for fumigation", "Probability": 1},
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "Type": "Original4",
+      "Type": "GDM Details 4",
       "Probability": 1,
       "names": [
         {"Name": "The store seems made from stone", "Probability": 1},
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "Type": "Original5",
+      "Type": "GDM Details 5",
       "Probability": 1,
       "names": [
         {"Name": "The store has recently replaced another store", "Probability": 1},
@@ -61,7 +61,7 @@
       ]
     },
      {
-      "Type": "Original6",
+      "Type": "GDM Details 6",
       "Probability": 1,
       "names": [
         {"Name": "The store is squatted by Free From Green!", "Probability": 1},
