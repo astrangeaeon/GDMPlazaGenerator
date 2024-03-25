@@ -133,7 +133,7 @@ function handleCopyTextFromParagraph2() {
    // Remove the textarea from the document after a short delay
   setTimeout(function() {
     document.body.removeChild(textarea);
-  }, 100);
+  }, 1000);
   
   // Remove the textarea from the document
   document.body.removeChild(textarea);
