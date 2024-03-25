@@ -114,6 +114,29 @@ function scrollToAnchor(anchorId) {
   }
 }
 
+function handleCopyTextFromParagraph2() {
+  const paragraph2 = document.querySelector('div.copytest');
+  
+  // Create a temporary textarea element
+  const textarea = document.createElement('textarea');
+  textarea.value = paragraph2.innerText;
+  
+  // Append the textarea to the document
+  document.body.appendChild(textarea);
+  
+  // Select the text within the textarea
+  textarea.select();
+  
+  // Execute the copy command
+  document.execCommand('copy');
+  
+  // Remove the textarea from the document
+  document.body.removeChild(textarea);
+  
+  // Show a snackbar/toast
+  snackbar();
+}
+
 //function copyToClipboard(text) {
   //navigator.clipboard.writeText(text)
 //.then(() => {
