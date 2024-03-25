@@ -130,6 +130,11 @@ function handleCopyTextFromParagraph2() {
   // Execute the copy command
   document.execCommand('copy');
   
+   // Remove the textarea from the document after a short delay
+  setTimeout(function() {
+    document.body.removeChild(textarea);
+  }, 100);
+  
   // Remove the textarea from the document
   document.body.removeChild(textarea);
   
