@@ -4791,7 +4791,7 @@ legend {
 /* ------------------------------------- */
 
 body {
-	/*font-family: "Comic Neue";*/
+	font-family: "Comic Neue";
 	font-weight: 600;
     font-size: 18px;
 }
@@ -5038,4 +5038,38 @@ input[type='checkbox'] {
 @keyframes fadeout {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
+}
+
+
+/* nav bar junk */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  <!--background-color: rgba(40, 40, 40, 0.5);-->
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lime;
+  color: black;
+}
+
+/* star background */
+
+.stars {
+  background: #000000 url('../img/stars.gif') top left;
 }
