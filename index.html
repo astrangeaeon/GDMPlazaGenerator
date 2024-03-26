@@ -134,7 +134,7 @@ background-color: purple;
   <!--<div class="row">
   <p class="col-4"></p>-->
   <div class="col-12 align-self-center">
-  <button id="myBtn4" class="btn btn-primary btn-small disabled" style="padding:30px 45px; font-size:26px;">Generate <br> Food Court</button>
+  <button id="myBtnTBD" class="btn btn-primary btn-small disabled" style="padding:30px 45px; font-size:26px;">Generate <br> Food Court</button>
   </div>
   <!--</div>-->
   <br>
@@ -365,7 +365,7 @@ background-color: purple;
 </div>
 
 <div id="airplanecontainer" style="text-align:center";>
-<input type="checkbox" name="send" id="send" onclick="handleCopyTextFromParagraph2()" style="text-align:center";/>
+<input type="checkbox" name="send" id="send" onclick="handleCopyTextFromParagraph();" style="text-align:center";/>
 <label for="send" class="send">
 	<div class="rotate">
 		<div class="move">
@@ -376,9 +376,15 @@ background-color: purple;
 </label>
 </div>
 
+<div class="row justify-content-center">
+<h3 style="text-align:center; color:#FFF; font-size:40px; class="col-12;">Or click here to display if Copy doesn't work</h3>
+
+<button id="unhide" style="text-align:center" class="col-4 align-self-center";>Use this to Display if Copy Doesn't Work</button>
+</div>
+
 
 <!--new stuff breaker-->
-
+<!--<div id="plazahidecheck" class="hide">-->
 <div id="plazacontent" class="copytest">
 <div id="plazabox"  class="row" style="background-color:Lime;">
 <div id="featuresbox" class="span4"> 
@@ -504,12 +510,13 @@ background-color: purple;
 </div>
 </div>
 </div>
+<!--</div>-->
 
 <!--<button onclick="snackbar()">Show Snackbar</button>-->
 <div id="snackbar">Plaza Copied!</div>
 
 
-<div class="hide">
+<div id="fontcheck" class="hide">
 	<h2 style="font-family:'Creepster';">Creepster</h2>
 	<h2 style="font-family:'Freckle Face';">Freckle Face</h2>
 	<h2 style="font-family:'Frijole';">Frijole</h2>
@@ -711,6 +718,11 @@ const element18 = document.getElementById("myBtn18");
 element18.addEventListener("click", function() {
     Reroll("npcknowledge");
 	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
+});
+
+const element20 = document.getElementById("unhide");
+element20.addEventListener("click", function() {
+    unhide();
 });
 
 function showFunction() {

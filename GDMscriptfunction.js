@@ -113,6 +113,13 @@ function scrollToAnchor(anchorId) {
     targetDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
+	
+function unhide() {
+	var x = document.getElementById("plazacontent");
+	x.className="copytest";
+	setTimeout(function() { x.className = x.className.replace("copytest", "copytest2")}, 100);
+	//setTimeout(function() { x.className = x.className.replace("copytest2", "copytest")}, 100);
+}
 
 function handleCopyTextFromParagraph2() {
   const paragraph2 = document.querySelector('div.copytest');
