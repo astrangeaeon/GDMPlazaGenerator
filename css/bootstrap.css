@@ -4844,6 +4844,11 @@ font-family:"Freckle Face";
 	overflow:hidden;
 }
 
+.copytest2 {
+	height:auto;
+	overflow:hidden;
+}
+
 /* paper airplane button stuff, fucks up a lot of layout*/
 
 /*body {
