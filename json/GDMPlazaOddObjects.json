@@ -34,7 +34,7 @@
         {"Name": "a pair of oversized scissors that only cuts the invisible ties between people, like loyalty, hatred, etc.", "Probability": 1},
         {"Name": "an ice cube that doesn't melt, the Nice Cube", "Probability": 1},
         {"Name": "a dog collar that turns you into a dog when worn", "Probability": 1},
-	{"Name": "an electric rozar blade that adds hair", "Probability": 1}
+		{"Name": "an electric rozar blade that adds hair", "Probability": 1}
       ]
     },
     {
@@ -53,7 +53,7 @@
       "Type": "Emergent",
       "Probability": 1,
       "names": [
-        {"Name": "dough that when baked conveys life, like gingerbread man", "Probability": 1},
+        {"Name": "dough that when baked conveys life, like the gingerbread man", "Probability": 1},
         {"Name": "Lite-Brite plugged into outlet with clown face and words It's Time, <PC Name>", "Probability": 1},
         {"Name": "ear plugs that create a bubble of silence around the wearer", "Probability": 1},
         {"Name": "half-filled spray bottle labeled Piranha Spray with DO NOT USE ON HAIR warning", "Probability": 1},
@@ -189,7 +189,7 @@
         {"Name": "a very permanent marker which takes industrial strength means to erase", "Probability": 1},
         {"Name": "a bar of soap made from poison ivy", "Probability": 1},
         {"Name": "shrinking yellow candies make you d6 inches shorter", "Probability": 1},
-        {"Name": "Come Over Here by the Sirens vinyl 45", "Probability": 1},
+        {"Name": "Pranko brand solar calculator that usually gives the correct answer", "Probability": 1},
         {"Name": "a fancy box for a deck of cards with only one card in it, the Ace of Spades", "Probability": 1}
       ]
     },

@@ -220,12 +220,48 @@
       "Type": "Triads",
       "Probability": 1,
       "names": [
-        {"Name": "a mannequin lingerie model, faceless but sexy body, one of the three smartest beings in the Mall", "Probability": 1},
+        {"Name": "Veronica Secret, a mannequin lingerie model, faceless but sexy body, one of the three smartest beings in the Mall", "Probability": 1},
         {"Name": "a dog carrying a prescription for antidepressants in its mouth, one of the three kindest beings in the Mall", "Probability": 1},
         {"Name": "an emotional support skeleton looking for its master, one of the three funniest beings in the Mall", "Probability": 1},
         {"Name": "Fuck You Larry, one of the three most foul-mouthed beings in the Mall", "Probability": 1},
         {"Name": "a grotesquely muscular child, one of the three strongest beings in the Mall", "Probability": 1},
         {"Name": "Wendy the Sleepwalker, one of the three most beautiful beings in the Mall", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Triads 2",
+      "Probability": 1,
+      "names": [
+        {"Name": "OS-CAR, a disllusioned Servant of the Mall, one of the three most dangerous beings in the Mall", "Probability": 1},
+        {"Name": "a pack of cigarettes with one cigarette left inside, one of the three coolest beings in the Mall", "Probability": 1},
+        {"Name": "Dominic Elbow, owns one of the three biggest collections in the Mall", "Probability": 1},
+        {"Name": "Lucky Dave, one of the three luckiest beings in the Mall", "Probability": 1},
+        {"Name": "a ragged pair of red hi-tops, one of the three smelliest beings in the Mall", "Probability": 1},
+        {"Name": "Joyce Springer, one of the three most ruthless beings in the Mall", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Celebrity Store Owners",
+      "Probability": 1,
+      "names": [
+        {"Name": "The Master Hu Li", "Probability": 1},
+        {"Name": "Big Damn Rob", "Probability": 1},
+        {"Name": "Zoltar the Sorcerer", "Probability": 1},
+        {"Name": "Doctor Red", "Probability": 1},
+        {"Name": "Mistress Veronica", "Probability": 1},
+        {"Name": "Psycho Dave", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Gig Workers",
+      "Probability": 1,
+      "names": [
+        {"Name": "a gig worker with a shopping list for items from several different stores", "Probability": 1},
+        {"Name": "a gig worker with a bag of food", "Probability": 1},
+        {"Name": "a courier en route to deliver an odd object", "Probability": 1},
+        {"Name": "a messenger carrying an envelope with information about a random faction", "Probability": 1},
+        {"Name": "a worker between gigs trying to find work", "Probability": 1},
+        {"Name": "a representative for a random faction seeking a gig worker for a task", "Probability": 1}
       ]
     },
     {

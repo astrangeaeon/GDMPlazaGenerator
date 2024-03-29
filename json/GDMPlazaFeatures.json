@@ -116,7 +116,7 @@
         {"Name": "Coin-op massage chairs", "Probability": 1},
         {"Name": "Table and two occupied chairs", "Probability": 1},
         {"Name": "Very high shoe shine chairs", "Probability": 1},
-        {"Name": "Food court with only food stores", "Probability": 1},
+        {"Name": "A very stained and disgusting orange couch", "Probability": 1},
         {"Name": "Silent meditation class seated on pillows", "Probability": 1}
       ]
     },
@@ -129,19 +129,19 @@
         {"Name": "One anchor store that dominates plaza", "Probability": 1},
         {"Name": "Adult-sized dollhouse", "Probability": 1},
         {"Name": "Five-story winding tube slide", "Probability": 1},
-        {"Name": "Glass coffin of famous shopper (shopped til he dropped!)", "Probability": 1}
+        {"Name": "Glass coffin of famous mystery shopper (shopped til he dropped!)", "Probability": 1}
       ]
     },
      {
       "Type": "Misc 2",
       "Probability": 1,
       "names": [
-        {"Name": "Mortal Kombat 2 cabinet linked to another somewhere in the mall with an anonymous challenger", "Probability": 1},
-        {"Name": "Police emergency call box buzzing loudly in deserted plaza with one dim store", "Probability": 1},
-        {"Name": "Kids playing an AR game about capturing monsters", "Probability": 1},
+        {"Name": "Mortal Kombat 2 cabinets linked to others somewhere in the mall with an anonymous challenger", "Probability": 1},
+        {"Name": "Police emergency call box buzzing loudly", "Probability": 1},
+        {"Name": "A swimming pool and lifeguard chair, possibly with a lifeguard in it", "Probability": 1},
         {"Name": "Birds flying around upper reaches attracted to dropped food", "Probability": 1},
         {"Name": "Crane machine with tempting prize inside", "Probability": 1},
-        {"Name": "Sign pointing to food court 24 miles away", "Probability": 1}
+        {"Name": "Ad-plastered billboard pointing to food court 24 miles away", "Probability": 1}
       ]
     },
     {
@@ -150,9 +150,9 @@
       "names": [
         {"Name": "A great bell or gong in the middle of the plaza, kids daring each other to ring it", "Probability": 1},
         {"Name": "A nondescript green door which is locked", "Probability": 1},
-        {"Name": "Paramedics carry shopper out of store on stretcher", "Probability": 1},
-        {"Name": "Adventuring party on quest to slay an evil taco", "Probability": 1},
-        {"Name": "Mannequins pedal through plaza on bicycles", "Probability": 1},
+        {"Name": "A gallery of mannequins and props in clever poses and settings", "Probability": 1},
+        {"Name": "Simulated Disaster machines (earthquake, hurricane, etc.)", "Probability": 1},
+        {"Name": "A manual Ferris Wheel-style ride entirely powered by Servants of the Mall", "Probability": 1},
         {"Name": "Les Mis style barricades blocking a corridor manned by faction", "Probability": 1}
       ]
     },
@@ -198,7 +198,7 @@
       "names": [
         {"Name": "Nets fall from ceiling", "Probability": 1},
         {"Name": "Trip wire triggers alarm", "Probability": 1},
-        {"Name": "False floor drops into pit", "Probability": 1},
+        {"Name": "False floor drops into ballpit", "Probability": 1},
         {"Name": "Chute dumps group into lower levels", "Probability": 1},
         {"Name": "Dart trap hits random PC with strange poison", "Probability": 1},
         {"Name": "Skunk trap douses random PC with stinky musk", "Probability": 1}

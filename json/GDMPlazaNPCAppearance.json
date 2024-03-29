@@ -216,6 +216,90 @@
         {"Name": "barely keeping it together after a recent loss or disappointment", "Probability": 1}
       ]
     },
+	{
+      "Type": "Triads",
+      "Probability": 1,
+      "names": [
+        {"Name": "one of the three strongest beings in the Mall", "Probability": 1},
+        {"Name": "one of the three smartest beings in the Mall", "Probability": 1},
+        {"Name": "one of the three kindest beings in the Mall", "Probability": 1},
+        {"Name": "one of the three most foul-mouthed beings in the Mall", "Probability": 1},
+        {"Name": "one of the three funniest beings in the Mall", "Probability": 1},
+        {"Name": "one of the three most beautiful beings in the Mall", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Triads 2",
+      "Probability": 1,
+      "names": [
+        {"Name": "one of the three most dangerous beings in the Mall", "Probability": 1},
+        {"Name": "one of the three coolest beings in the Mall", "Probability": 1},
+        {"Name": "one of the three luckiest beings in the Mall", "Probability": 1},
+        {"Name": "one of the three smelliest beings in the Mall", "Probability": 1},
+        {"Name": "one of the three most ruthless beings in the Mall", "Probability": 1},
+        {"Name": "owner of one of the three biggest collections in the Mall", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Triads 3",
+      "Probability": 1,
+      "names": [
+        {"Name": "one of the three greatest surgeons in the Mall", "Probability": 1},
+        {"Name": "one of the three greatest detectives in the Mall", "Probability": 1},
+        {"Name": "one of the three greatest salesmen in the Mall", "Probability": 1},
+        {"Name": "one of the three greatest liars in the Mall", "Probability": 1},
+        {"Name": "one of the three greatest Mall historians in the Mall", "Probability": 1},
+        {"Name": "one of the three greatest architects in the Mall", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Smells",
+      "Probability": 1,
+      "names": [
+        {"Name": "cigarettes", "Probability": 1},
+        {"Name": "gasoline", "Probability": 1},
+        {"Name": "weed", "Probability": 1},
+        {"Name": "a chocolate factory", "Probability": 1},
+        {"Name": "expensive perfume", "Probability": 1},
+        {"Name": "fresh-cut grass", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Relationship",
+      "Probability": 1,
+      "names": [
+        {"Name": "holding hands with another NPC", "Probability": 1},
+        {"Name": "arguing loudly with another NPC", "Probability": 1},
+        {"Name": "coming to blows with another NPC", "Probability": 1},
+        {"Name": "fleeing from another NPC", "Probability": 1},
+        {"Name": "dancing romantically with another NPC", "Probability": 1},
+        {"Name": "being carried by another NPC", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Jewelry",
+      "Probability": 1,
+      "names": [
+        {"Name": "wearing shiny rings on each finger", "Probability": 1},
+        {"Name": "wearing an emerald tiara", "Probability": 1},
+        {"Name": "wearing complicated earrings", "Probability": 1},
+        {"Name": "wearing a necklace with a human ear", "Probability": 1},
+        {"Name": "wearing jangly metal bracelets", "Probability": 1},
+        {"Name": "wearing s fancy jeweled scarf", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Illusion",
+      "Probability": 1,
+      "names": [
+        {"Name": "actually a clever model", "Probability": 1},
+        {"Name": "on closer inspection, made of 2d cardboard", "Probability": 1},
+        {"Name": "apparently real, but frozen in place", "Probability": 1},
+        {"Name": "a flawless mechanical duplicate", "Probability": 1},
+        {"Name": "plastic clone, flaws becoming apparent the more time spent with them", "Probability": 1},
+        {"Name": "actually an actor playing the role of the NPC, not the real one", "Probability": 1}
+      ]
+    },
     {
       "Type": "Smoking",
       "Probability": 1,

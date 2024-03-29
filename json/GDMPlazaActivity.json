@@ -132,6 +132,30 @@
         {"Name": "Overrun by dozens of miniature pigs, all with a number painted on them, released as a Freed From Green! stunt", "Probability": 1}
       ]
     },
+	{
+      "Type": "Motion",
+      "Probability": 1,
+      "names": [
+        {"Name": "Kids playing an AR game about capturing monsters", "Probability": 1},
+        {"Name": "Paramedics carry shopper out of store on stretcher", "Probability": 1},
+        {"Name": "Adventuring party on quest to slay an evil taco", "Probability": 1},
+        {"Name": "Mannequins pedal through plaza on bicycles", "Probability": 1},
+        {"Name": "Swarm of null blinkers, shoppers who don't blink for fear of missing a deal", "Probability": 1},
+        {"Name": "A green six-wheeled skateboard rolls past with an invisible skater on it", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Faction Convention",
+      "Probability": 1,
+      "names": [
+        {"Name": "Tables are set up for a Collector swap meet", "Probability": 1},
+        {"Name": "A well-attended Mannequin rally is underway", "Probability": 1},
+        {"Name": "A Freed From Green! concert party is in full swing", "Probability": 1},
+        {"Name": "A formal Council of Objects meeting is about to start ", "Probability": 1},
+        {"Name": "New Servants of the Mall are undergoing training with a veteran instructor", "Probability": 1},
+        {"Name": "Dozens of businessmen and women nod thoughtfully to a Mall Upgrader's presentation", "Probability": 1}
+      ]
+    },
     {
       "Type": "Upgrader Activities",
       "Probability": 1,
