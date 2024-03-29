@@ -9,7 +9,7 @@
         {"Name": "Hole in One Tees", "Probability": 1},
         {"Name": "Kate's Crystal Balls", "Probability": 1},
         {"Name": "What Kind of Ball Would You Like Today, Sir?", "Probability": 1},
-        {"Name": "The Locker Room", "Probability": 1}
+        {"Name": "That Locker Room Funk", "Probability": 1}
       ]
     },
     {
@@ -17,7 +17,7 @@
       "Probability": 1,
       "names": [
         {"Name": "Oh No Burrito!", "Probability": 1},
-        {"Name": "Senior Tacos", "Probability": 1},
+        {"Name": "Anarchy Burger", "Probability": 1},
         {"Name": "Cowabunga Pizza", "Probability": 1},
         {"Name": "Every Part of the Worm", "Probability": 1},
         {"Name": "Dave's Seafood and Gothic Gift Shop", "Probability": 1},
@@ -149,7 +149,7 @@
       "Probability": 1,
       "names": [
         {"Name": "Windowlight Books", "Probability": 1},
-        {"Name": "Banjo’s Books", "Probability": 1},
+        {"Name": "Banjo’s Extra-Large Books", "Probability": 1},
         {"Name": "The Poltergeist’s Picks", "Probability": 1},
         {"Name": "Dynamite Books", "Probability": 1},
         {"Name": "Stu’s Dirty Books", "Probability": 1},
@@ -176,7 +176,7 @@
         {"Name": "A Tournament of Love", "Probability": 1},
         {"Name": "The Mystery of Love", "Probability": 1},
         {"Name": "Robot Courtship", "Probability": 1},
-        {"Name": "Something Borrowed", "Probability": 1},
+        {"Name": "Something Borrowed / Something Blue", "Probability": 1},
         {"Name": "Crimes of Passion", "Probability": 1}
       ]
     },
@@ -235,8 +235,8 @@
         {"Name": "The Ones Big N Forgot", "Probability": 1},
         {"Name": "Lizards Most Intriguing", "Probability": 1},
         {"Name": "Ray’s Strays", "Probability": 1},
-        {"Name": "Big Owl Bird Nests", "Probability": 1},
-        {"Name": "Horseflesh by the Dozen", "Probability": 1},
+        {"Name": "Big Owl's Professionaly Installed Bird Nests", "Probability": 1},
+        {"Name": "Wild Horses", "Probability": 1},
         {"Name": "Rats and More", "Probability": 1}
       ]
     },
@@ -306,7 +306,7 @@
       "names": [
         {"Name": "Seekers of the Sightless Way", "Probability": 1},
         {"Name": "Magician’s Best Friend", "Probability": 1},
-        {"Name": "Tattoo Used", "Probability": 1},
+        {"Name": "Primitive Magic", "Probability": 1},
         {"Name": "Black Leather Witchcraft", "Probability": 1},
         {"Name": "Zoltar the Sorcerer", "Probability": 1},
         {"Name": "Pick a Card", "Probability": 1}
@@ -330,8 +330,8 @@
       "names": [
         {"Name": "Yesterday’s Blooms", "Probability": 1},
         {"Name": "Tomorrow’s Flowers", "Probability": 1},
-        {"Name": "Princess Petals", "Probability": 1},
-        {"Name": "Real Wild Flowers", "Probability": 1},
+        {"Name": "Princess Rainbow's Petals", "Probability": 1},
+        {"Name": "Make the Wilderness Bloom!", "Probability": 1},
         {"Name": "Petal to the Metal", "Probability": 1},
         {"Name": "Scarlet Begonias", "Probability": 1}
       ]
@@ -352,7 +352,7 @@
       "Type": "Art Supplies",
       "Probability": 1,
       "names": [
-        {"Name": "Small Art by Karl", "Probability": 1},
+        {"Name": "Pocket-sized Art by Karl", "Probability": 1},
         {"Name": "Fiona’s Palace of Paper", "Probability": 1},
         {"Name": "Used Blood", "Probability": 1},
         {"Name": "Back Alley Deals", "Probability": 1},
@@ -402,7 +402,7 @@
       "names": [
         {"Name": "Rob’s Big Damn Hats", "Probability": 1},
         {"Name": "Practical Helmets", "Probability": 1},
-        {"Name": "Mack’s Stacks of Masks", "Probability": 1},
+        {"Name": "Stacks of Masks", "Probability": 1},
         {"Name": "Hero With 1000 Faces", "Probability": 1},
         {"Name": "Animal Hats", "Probability": 1},
         {"Name": "Kangaroo Jack’s Pocket Hats", "Probability": 1}
