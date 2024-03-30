@@ -1,7 +1,7 @@
 {
   "elevatorsurprise": [
     {
-      "Type": "Surprise",
+      "Type": "Surprise 1",
       "Probability": 1,
       "names": [
         {"Name": "an odd object left behind", "Probability": 1},
@@ -10,6 +10,18 @@
         {"Name": "a loose panel allows access to the shaft", "Probability": 1},
         {"Name": "the buttons are labeled with different currency symbols", "Probability": 1},
         {"Name": "a well-dressed but ignorant lift girl operates the elevator", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Surprise 2",
+      "Probability": 1,
+      "names": [
+        {"Name": "elevator filled with pale blue slime", "Probability": 1},
+        {"Name": "electrical wires sparking", "Probability": 1},
+        {"Name": "decaying varmint stinking up the elevator car", "Probability": 1},
+        {"Name": "a smelly clogged toilet sits against the back wall", "Probability": 1},
+        {"Name": "kids playing a complicated looking board game on the floor", "Probability": 1},
+        {"Name": "a pregnant dog about to give birth", "Probability": 1}
       ]
     }
   ]
