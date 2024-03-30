@@ -118,8 +118,20 @@ function unhide() {
 	var x = document.getElementById("plazacontent");
 	x.className="copytest";
 	setTimeout(function() { x.className = x.className.replace("copytest", "copytest2")}, 100);
-	//setTimeout(function() { x.className = x.className.replace("copytest2", "copytest")}, 100);
 }
+
+//function selectplazatext() {
+	//const paragraph2 = document.querySelector('div.copytest');
+  // Create a temporary textarea element
+  //const textarea = document.createElement('textarea');
+  //textarea.value = paragraph2.innerText;
+  
+  // Append the textarea to the document
+  //document.body.appendChild(textarea);
+  
+  // Select the text within the textarea
+  //textarea.select();
+//}
 
 function handleCopyTextFromParagraph2() {
   const paragraph2 = document.querySelector('div.copytest');
@@ -148,6 +160,8 @@ function handleCopyTextFromParagraph2() {
   // Show a snackbar/toast
   snackbar();
 }
+
+
 
 //function copyToClipboard(text) {
   //navigator.clipboard.writeText(text)
