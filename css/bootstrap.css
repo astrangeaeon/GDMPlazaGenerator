@@ -5155,3 +5155,45 @@ background-color: transparent;
   display: none;
   overflow: hidden;
 }
+
+/*Contact form style*/
+.contactstyle {
+	color:white;
+	background-color:blue;
+}
+
+label.hz-label  {display:inline-block;}
+
+.contact-header {
+	margin-bottom: 20px;
+}
+
+.contact-header img {
+	display:inline-block;
+	margin: 0 10px;
+}
+
+
+
+/* BASIC STUFF */
+
+.section-padding { padding: 30px;}
+
+a .nav-img {
+	background-color: lime;
+	margin-left: 20px;
+	}
+	
+a .nav-img:hover{
+		background-color: CornflowerBlue;
+		
+}
+
+.nav-img-label {
+	color: green;
+    font-family: Freckle Face;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+	letter-spacing: 1px;
+}
