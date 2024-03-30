@@ -5078,3 +5078,80 @@ li a:hover {
 .stars {
   background: #000000 url('../img/stars.gif') top left;
 }
+
+/* About button classes */
+
+
+
+.toggle-default {
+	font-family:"Freckle Face";
+	font-size:24px;
+	padding: 15px 30px;
+	background-color:white;
+	border:0;
+	display:inline-block;
+}
+
+.toggle-default:hover {
+	background-color:yellow;
+}
+
+.toggle-group {
+	background-color:cyan;
+}
+
+.jumpbar {
+	background-color:blue;
+	color:white;
+}
+
+.jumpbar a {
+	padding:10px;
+	display:inline-block;
+	color:white;
+}
+
+.jumpbar a:hover {
+	background-color:orange;
+	color:black;
+}
+
+/* Accordian about page */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-gdm {
+background-color: transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border:0;
+  border-bottom:3px solid Gold;
+  outline: none;
+  transition: 0.4s;
+  font-size: 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion-gdm:hover {
+  background-color: yellow;
+  font-weight:800;
+}
+
+.accordion-gdm:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+}
