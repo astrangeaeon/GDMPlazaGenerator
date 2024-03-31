@@ -241,6 +241,18 @@
       ]
     },
 	{
+      "Type": "Triads 3",
+      "Probability": 1,
+      "names": [
+        {"Name": "Doctor Smugworth, whose skill with the knife saved Old Matilda after eating night eggs, one of the three greatest surgeons in the Mall", "Probability": 1},
+        {"Name": "Inspector Mozi, who found the executive vice president's missing fireworks, one of the three greatest detectives in the Mall", "Probability": 1},
+        {"Name": "Brother Cobb, who supposedly coldcalled the original owner of Starlight Harbour, one of the three greatest salesmen in the Mall", "Probability": 1},
+        {"Name": "Tyrone Angelface, one of the three greatest liars in the Mall", "Probability": 1},
+        {"Name": "Joy Eaglefeather, one of the three greatest historians of the Mall", "Probability": 1},
+        {"Name": "the enigmatic Small Blind, a dev-wife and one of the three greatest architects in the Mall", "Probability": 1}
+      ]
+    },
+	{
       "Type": "Celebrity Store Owners",
       "Probability": 1,
       "names": [
