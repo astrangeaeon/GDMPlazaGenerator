@@ -5197,3 +5197,57 @@ a .nav-img:hover{
     top: 10px;
 	letter-spacing: 1px;
 }
+
+/* About page padding stuff so mobile doesn't look like garbage*/
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.ad-section {
+  display: none;
+  
+  /* box padding class */
+}
+
+h2.section-title {
+	font-family:Freckle Face;
+	font-size:60px;
+	text-shadow: 2px 2px 4px white;
+}
+
+.box-padding {
+	padding: 60px 60px;
+}
+.text-hl-lg  {font-size: 24px;}
+
+b	{
+	font-weight:700;
+	color:Red;
+}
+
+@media (max-width: 575.98px) { 
+
+body {line-height: 1.15em;}
+
+  .box-padding,
+  .box-padding-45{
+	  padding:30px 30px;
+  }
+  
+  .ad-section.box-padding { padding:15px 15px;}
+  
+  h2.section-title {
+	font-size:30px;
+}
+
+  .text-hl-lg  {font-size: 18px;}
+  
+  .mobile-linebreak {
+	  margin-top:15px;
+  }
+  
+ }
+
+
+
+
+
+
