@@ -1,5 +1,7 @@
 
 	var jsonData
+	var dupes = [];
+	
 
 
 function Roll(numRolls, category, table){
@@ -21,6 +23,7 @@ let url = `https://astrangeaeon.github.io/GDMPlazaGenerator/json/${table}.json`;
 		   d6=d6+1;
 		   //put here to remove when button pressed with innerhtml
 		   // Get random info for each NumRolls
+		   dupes = [];
 		   for (let i = 1; i <= d6; i++) {
  
 			   var selectedStoreType = getRandomInt(totalStoreTypes);
@@ -37,8 +40,15 @@ let url = `https://astrangeaeon.github.io/GDMPlazaGenerator/json/${table}.json`;
 			   
 			   //Get total number of Store Names + select random store name
 			   var totalStoreNames = Object.keys(jsonData[category][selectedStoreType].names).length;
-			   var selectedStoreName = getRandomInt(totalStoreNames);
+			   var selectedStoreName = getRandomUniqueInt(totalStoreNames);
 			   
+			   //anti dupe logic
+			   
+		   //const dupes = [];
+		   //if (dupes.indexOf([selectedStoreName]) == -1) {
+				//dupes.push([selectedStoreName])
+				
+			   //} else {selectedStoreName = getRandomInt(totalStoreNames)};
 			   //Put the info in the console 
 			//	console.log("StoreTypes: "+totalStoreTypes+" // StoreNames: "+totalStoreNames);
 			console.log("Selected Store -- "+jsonData[category][selectedStoreType].Type+": "+jsonData[category][selectedStoreType].names[selectedStoreName].Name)
@@ -73,7 +83,7 @@ let url = `https://astrangeaeon.github.io/GDMPlazaGenerator/json/${table}.json`;
 			   console.log("Paragraph appended to DOM:", printCopy);
 			   //var breaker = document.createElement("br");
 			   //document.getElementById("Copy"+category).appendChild(breaker);
-			  
+		   
 		   }
 		   //how do I make the "we3example2" variable so I can set it with each different button? if I switch it around
 		   //it will change what gets generated based on the html, i.e., we3example is stores, we3example2 is plaze feature
@@ -88,6 +98,35 @@ let url = `https://astrangeaeon.github.io/GDMPlazaGenerator/json/${table}.json`;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
+}
+
+function getRandomUniqueInt(max) {
+	var uniqueInt = Math.floor(Math.random() * max);
+		   if (!dupes.includes(uniqueInt)) {
+				dupes.push(uniqueInt);
+				console.log(uniqueInt);
+				console.log(dupes.length);
+				console.log(dupes)
+				return uniqueInt;
+				
+} else {
+	if(dupes.length < max) {
+		return getRandomUniqueInt(max);
+	} else {
+		console.log('No more numbers available.')
+		return false;
+	}
+}
+}
+
+
+function getRandomUniqueInt1(limit, totalValues) {
+	const uniqueValues = new Set();
+	
+	do { uniqueValues.add(Number((Math.random() * limit).toFixed()))  }
+	    while ( uniqueValues.size < totalValues)
+			
+	return Array.from(uniqueValues);
 }
 
 function Reroll(category) {
