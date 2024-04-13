@@ -4,7 +4,7 @@
       "Type": "Fountains",
       "Probability": 1,
       "names": [
-        {"Name": "Fresh water with arcade tokens", "Probability": 1},
+        {"Name": "Fresh water with arcade tokens gleaming from the bottom", "Probability": 1},
         {"Name": "Frozen over with flashes of colored light below the ice", "Probability": 1},
         {"Name": "Shark-infested with glimmer of coins", "Probability": 1},
         {"Name": "Steaming boiling water with skeleton fish and a key", "Probability": 1},
@@ -16,10 +16,10 @@
       "Type": "Kiosk",
       "Probability": 1,
       "names": [
-        {"Name": "Piercing and tattoos", "Probability": 1},
-        {"Name": "Flavored air hookah", "Probability": 1},
-        {"Name": "Popcorn vendor", "Probability": 1},
-        {"Name": "Balloon artist", "Probability": 1},
+        {"Name": "Red Hot Piercing and Tattoos", "Probability": 1},
+        {"Name": "Treat Your Lungs Flavored Air Hookah", "Probability": 1},
+        {"Name": "Tony's Discount Popcorn", "Probability": 1},
+        {"Name": "Weeping Clown Balloon Art", "Probability": 1},
         {"Name": "Lick a Toad franchise", "Probability": 1},
         {"Name": "Green Dawn Militia recruiters", "Probability": 1}
       ]
@@ -66,8 +66,8 @@
       "names": [
         {"Name": "Trampoline / bounce house", "Probability": 1},
         {"Name": "Unsupervised playground", "Probability": 1},
-        {"Name": "Amusement rides like horse or car", "Probability": 1},
-        {"Name": "Prize machines with live bugs or permanent tattoos etc.", "Probability": 1},
+        {"Name": "Amusement rides like Ride-A-Worm or Blender-Spin", "Probability": 1},
+        {"Name": "Prize machines with live bugs or permanent tattoos, etc.", "Probability": 1},
         {"Name": "Horrific animatronic band", "Probability": 1},
         {"Name": "Kiddie train travels between plazas through tunnel", "Probability": 1}
       ]
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "Type": "Misc 1",
+      "Type": "Thinking Big",
       "Probability": 1,
       "names": [
         {"Name": "Humongous clock with weird time", "Probability": 1},
@@ -129,14 +129,14 @@
         {"Name": "One anchor store that dominates plaza", "Probability": 1},
         {"Name": "Adult-sized dollhouse", "Probability": 1},
         {"Name": "Five-story winding tube slide", "Probability": 1},
-        {"Name": "Glass coffin of famous mystery shopper (shopped til he dropped!)", "Probability": 1}
+        {"Name": "A manual Ferris Wheel-style ride entirely powered by Servants of the Mall", "Probability": 1}
       ]
     },
      {
-      "Type": "Misc 2",
+      "Type": "Modern Life",
       "Probability": 1,
       "names": [
-        {"Name": "Mortal Kombat 2 cabinets linked to others somewhere in the mall with an anonymous challenger", "Probability": 1},
+        {"Name": "Mortal Kombat 2 cabinets linked to others somewhere in the Mall with an anonymous challenger", "Probability": 1},
         {"Name": "Police emergency call box buzzing loudly", "Probability": 1},
         {"Name": "A swimming pool and lifeguard chair, possibly with a lifeguard in it", "Probability": 1},
         {"Name": "Birds flying around upper reaches attracted to dropped food", "Probability": 1},
@@ -145,43 +145,43 @@
       ]
     },
     {
-      "Type": "Misc 3",
+      "Type": "Histories and Mysteries",
       "Probability": 1,
       "names": [
         {"Name": "A great bell or gong in the middle of the plaza, kids daring each other to ring it", "Probability": 1},
         {"Name": "A nondescript green door which is locked", "Probability": 1},
-        {"Name": "A gallery of mannequins and props in clever poses and settings", "Probability": 1},
-        {"Name": "Simulated Disaster machines (earthquake, hurricane, etc.)", "Probability": 1},
-        {"Name": "A manual Ferris Wheel-style ride entirely powered by Servants of the Mall", "Probability": 1},
-        {"Name": "Les Mis style barricades blocking a corridor manned by faction", "Probability": 1}
+        {"Name": "A gallery of mannequins and props in mysterious poses and settings", "Probability": 1},
+        {"Name": "Shrine to one of the Mall's owners", "Probability": 1},
+        {"Name": "Glass coffin of famous mystery shopper (shopped til he dropped!)", "Probability": 1},
+        {"Name": "Les Mis style barricades blocking a corridor manned by random faction reenactors", "Probability": 1}
       ]
     },
     {
-      "Type": "Misc 4",
+      "Type": "Bucolic",
       "Probability": 1,
       "names": [
         {"Name": "Small farm plot growing weed", "Probability": 1},
         {"Name": "Large zen sand garden", "Probability": 1},
         {"Name": "Stonehenge like feature", "Probability": 1},
         {"Name": "Lighthouse and nautical themed plaza with fake ocean", "Probability": 1},
-        {"Name": "Tower of blood with invisible tigers", "Probability": 1},
+        {"Name": "Artificial sky ceiling, day and night cycle", "Probability": 1},
         {"Name": "Hedge maze leads to prize / other plaza", "Probability": 1}
       ]
     },
     {
-      "Type": "Misc 5",
+      "Type": "Thrill",
       "Probability": 1,
       "names": [
         {"Name": "Bottomless pit with a yellow A-frame warning sign", "Probability": 1},
-        {"Name": "Artificial sky ceiling", "Probability": 1},
-        {"Name": "Interactive light display", "Probability": 1},
+        {"Name": "Tower of blood with invisible tigers", "Probability": 1},
+        {"Name": "Interactive laser light display", "Probability": 1},
         {"Name": "Interactive water wall", "Probability": 1},
         {"Name": "Virtual reality machines", "Probability": 1},
-        {"Name": "Shrine to one of the mall's owners", "Probability": 1}
+        {"Name": "Simulated Disaster machines (earthquake, hurricane, etc.)", "Probability": 1}
       ]
     },
     {
-      "Type": "Misc 6",
+      "Type": "Contest Winners",
       "Probability": 1,
       "names": [
         {"Name": "A huge head with a face that changes every 30 seconds", "Probability": 1},
