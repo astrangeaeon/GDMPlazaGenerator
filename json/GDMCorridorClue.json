@@ -21,7 +21,19 @@
         {"Name": "waves or traffic", "Probability": 1},
         {"Name": "a festive street party atmosphere", "Probability": 1},
         {"Name": "booming thunder and rain", "Probability": 1},
-        {"Name": "loud buzzing of a loose connection, static hiss", "Probability": 1}
+        {"Name": "one of the PCs swears they heard someone desperately call out their name from this corridor", "Probability": 1}
+      ]
+	},
+    {
+      "Type": "Alarming",
+      "Probability": 1,
+      "names": [
+        {"Name": "a stampede of shoppers rushes from or towards that direction", "Probability": 1},
+        {"Name": "Servants of the Mall are in the process of barricading the corridor", "Probability": 1},
+        {"Name": "the corridor has been modeled so it looks like you are traveling down the mouth of a great beast", "Probability": 1},
+        {"Name": "flames and smoke make the way difficult", "Probability": 1},
+        {"Name": "Green Dawn Mall militia have built an obstacle course and insist shoppers pass through it", "Probability": 1},
+        {"Name": "loud buzzing of a loose connection, sparks, static hiss", "Probability": 1}
       ]
     },
     {
