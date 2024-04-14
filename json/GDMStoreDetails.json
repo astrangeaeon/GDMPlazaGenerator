@@ -60,7 +60,19 @@
         {"Name": "There's a very low ceiling", "Probability": 1}
       ]
     },
-     {
+	{
+      "Type": "Distracted",
+      "Probability": 1,
+      "names": [
+        {"Name": "The clerk is absorbed by a loud TV program", "Probability": 1},
+        {"Name": "The clerk can't put down the magazine they're reading", "Probability": 1},
+        {"Name": "A fussy customer is demanding to see the manager", "Probability": 1},
+        {"Name": "The clerk is out from behind the counter cleaning up a huge mess", "Probability": 1},
+        {"Name": "The clerk is on a lunch or smoke break, ignoring all customers", "Probability": 1},
+        {"Name": "The clerk is on the phone with someone, creating a long line", "Probability": 1}
+      ]
+    },
+    {
       "Type": "GDM Details 6",
       "Probability": 1,
       "names": [
