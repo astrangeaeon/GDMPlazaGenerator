@@ -1,0 +1,112 @@
+{
+  "stores": [
+    {
+      "Type": "Burgers and Dogs",
+      "Probability": 1,
+      "names": [
+        {"Name": "Anarchy Burger", "Probability": 1},
+        {"Name": "Monarchy Burger", "Probability": 1},
+        {"Name": "The Dogs of War", "Probability": 1},
+        {"Name": "Corndogs for Two", "Probability": 1},
+        {"Name": "The House of Gristle", "Probability": 1},
+        {"Name": "Pickle Buns", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Italian",
+      "Probability": 1,
+      "names": [
+        {"Name": "The Family Stromboli", "Probability": 1},
+        {"Name": "We Made Too Much Spaghetti!", "Probability": 1},
+        {"Name": "Cowabunga Pizza", "Probability": 1},
+        {"Name": "Pizza Bowties", "Probability": 1},
+        {"Name": "Maximum Calzone", "Probability": 1},
+        {"Name": "Ti Mangerai il Cappello", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Taco",
+      "Probability": 1,
+      "names": [
+        {"Name": "Oh No Burrito", "Probability": 1},
+        {"Name": "Taco Twins", "Probability": 1},
+        {"Name": "We Heard You Like Guac", "Probability": 1},
+        {"Name": "Tacos of Evil", "Probability": 1},
+        {"Name": "Zero Calorie Burrito", "Probability": 1},
+        {"Name": "Authentic Street Food", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Vegan",
+      "Probability": 1,
+      "names": [
+        {"Name": "Rachel's Vegan Saloon", "Probability": 1},
+        {"Name": "Freegan's Delight", "Probability": 1},
+        {"Name": "Meat is Murder", "Probability": 1},
+        {"Name": "No Meat, No Dairy, No Problem", "Probability": 1},
+        {"Name": "Bolam's Nuts and Shrooms", "Probability": 1},
+        {"Name": "Vegan on the DL", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Deli",
+      "Probability": 1,
+      "names": [
+        {"Name": "BLTs Please", "Probability": 1},
+        {"Name": "HJs and PBJs", "Probability": 1},
+        {"Name": "Submarine Heroes", "Probability": 1},
+        {"Name": "Ultimate Grilled Cheese Throwdown", "Probability": 1},
+        {"Name": "House of the Sand Witch", "Probability": 1},
+        {"Name": "Black Bread, Black Soup", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Candies",
+      "Probability": 1,
+      "names": [
+        {"Name": "The Good Witch Sweetshop", "Probability": 1},
+        {"Name": "Cherry Bombs", "Probability": 1},
+        {"Name": "Sex and Candy", "Probability": 1},
+        {"Name": "Treats and Tricks", "Probability": 1},
+        {"Name": "The Jellybean Tree", "Probability": 1},
+        {"Name": "The Candy Hole", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Ice Cream",
+      "Probability": 1,
+      "names": [
+        {"Name": "Too Many Scoops", "Probability": 1},
+        {"Name": "Jubilee Iced Treats", "Probability": 1},
+        {"Name": "Last Year’s Snow", "Probability": 1},
+        {"Name": "Barehanded Ice Cream", "Probability": 1},
+        {"Name": "Ice Cream Challenge", "Probability": 1},
+        {"Name": "You Are the Ice Cream", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Coffee",
+      "Probability": 1,
+      "names": [
+        {"Name": "Whole in One Teas", "Probability": 1},
+        {"Name": "Future Beans", "Probability": 1},
+        {"Name": "Superhero Coffee", "Probability": 1},
+        {"Name": "Patriotic Beans / Grounds for Divorce", "Probability": 1},
+        {"Name": "The Brown Stuff", "Probability": 1},
+        {"Name": "Big Gulp Coffee", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Exotic",
+      "Probability": 1,
+      "names": [
+        {"Name": "Every Part of the Worm", "Probability": 1},
+        {"Name": "Dave's Seafood and Gothic Gift Shop", "Probability": 1},
+        {"Name": "Protein Rodeo", "Probability": 1},
+        {"Name": "Three Phases of Corn", "Probability": 1},
+        {"Name": "Chutes, Leaves and Eats", "Probability": 1},
+        {"Name": "Let Them Eat Cake", "Probability": 1}
+      ]
+    }
+  ]
+}
