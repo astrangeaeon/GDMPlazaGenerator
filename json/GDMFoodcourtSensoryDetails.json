@@ -1,0 +1,64 @@
+{
+  "FCsensory": [
+    {
+      "Type": "Smell",
+      "Probability": 1,
+      "names": [
+        {"Name": "The golden smell of french fries being cooked", "Probability": 1},
+        {"Name": "Smoking section, exotic tobacco scents like salmon and rubber", "Probability": 1},
+        {"Name": "Fresh smell of flowers coming from thuribles Servants of the Mall add a clear chemical to periodically", "Probability": 1},
+        {"Name": "Faint smell of burnt toast with no apparent source, phantosmia?", "Probability": 1},
+        {"Name": "Delicious scent wafting from the garbage can", "Probability": 1},
+        {"Name": "New baby smell coming from the kitchen of one of the restaurants", "Probability": 1}
+      ]
+    },
+       {
+      "Type": "Sound",
+      "Probability": 1,
+      "names": [
+        {"Name": "Large group seated together and praying in an unfamiliar language", "Probability": 1},
+        {"Name": "White noise of numerous conversations hides a message for one of the PCs", "Probability": 1},
+        {"Name": "Explosive customer screaming at a smug teenage sales clerk", "Probability": 1},
+        {"Name": "Cacophony of songbirds perched above in the rafters", "Probability": 1},
+        {"Name": "A monster slumbers in the middle of the food court, people order in whispers and eat in silence", "Probability": 1},
+        {"Name": "Banshee wailing coming from underneath one of the tables", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Sight",
+      "Probability": 1,
+      "names": [
+        {"Name": "A forgotten combo meal toy rests near a puddle of ketchup", "Probability": 1},
+        {"Name": "Unserviced, tables dotted with crumbs and ketchup spots, trash cans overflowing", "Probability": 1},
+        {"Name": "Someone left behind a bag from a random store under the table", "Probability": 1},
+        {"Name": "A complex playplace for children with tunnels and ballpits", "Probability": 1},
+        {"Name": "An enormous taxidermized whale hangs over the food court", "Probability": 1},
+        {"Name": "Birds swoop and fight viciously for any dropped food", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Taste",
+      "Probability": 1,
+      "names": [
+        {"Name": "A little trinket in a random PC's meal, like the baby in a king cake", "Probability": 1},
+        {"Name": "The unpleasant grit of sand", "Probability": 1},
+        {"Name": "Coppery taste coats the inside of random PC's mouth after sipping a fountain drink", "Probability": 1},
+        {"Name": "A tiny bone in a dish that should have no bones in it", "Probability": 1},
+        {"Name": "A random PC's food appears and smells normal but in their mouth has the texture of chewing plastic wrap", "Probability": 1},
+        {"Name": "The subtle but insistent flavor of black licorice ruins a random PC's meal", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Touch",
+      "Probability": 1,
+      "names": [
+        {"Name": "Grease from a random PC's order won't wash off, leaving them with slippery hands", "Probability": 1},
+        {"Name": "For a random PC, every chair seems to have a sticky seat", "Probability": 1},
+        {"Name": "Wading through discarded wrappers and leftover food in anklehigh heaps", "Probability": 1},
+        {"Name": "Great waves of heat from bonfires that light this medieval styled food court", "Probability": 1},
+        {"Name": "Instead of napkins, invisible dogs lick the faces and hands of diners", "Probability": 1},
+        {"Name": "Unsupervised children roughhousing and making a mess bump into random PC, spilling their tray", "Probability": 1}
+      ]
+    }
+  ]
+}
