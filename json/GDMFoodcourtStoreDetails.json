@@ -1,0 +1,76 @@
+{
+  "FCstoredetails": [
+    {
+      "Type": "Prices",
+      "Probability": 1,
+      "names": [
+        {"Name": "Prices are suspiciously low", "Probability": 1},
+        {"Name": "Prices are discounted by 1d3", "Probability": 1},
+        {"Name": "The cashier only accepts barter", "Probability": 1},
+        {"Name": "A random PC gets their meal paid for by an Odd NPC ahead of them in line", "Probability": 1},
+        {"Name": "Prices are premium, an additional 1d3", "Probability": 1},
+        {"Name": "Prices are outrageous, based at 2d6", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Lines",
+      "Probability": 1,
+      "names": [
+        {"Name": "A long line of customers due to a flash promotion", "Probability": 1},
+        {"Name": "An Odd NPC in line furiously juggles a handful of Odd Objects while waiting their turn to order", "Probability": 1},
+        {"Name": "A frail older woman behind you says she's dying and that this might be her very last meal", "Probability": 1},
+        {"Name": "The restaurant has run out of a basic menu item; the line simmers with nascent riot", "Probability": 1},
+        {"Name": "A stubborn mannequin struggles with the self-order machine's touchscreen not responding", "Probability": 1},
+        {"Name": "Representatives of the Mall with clipboards are asking survey questions to those waiting in line", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Eerie",
+      "Probability": 1,
+      "names": [
+        {"Name": "Completely deserted, is someone hiding in the back?", "Probability": 1},
+        {"Name": "The clerk is identical to a random PC with memories diverging at an interesting moment since the PC entered the Mall", "Probability": 1},
+        {"Name": "The restaurant staff are literally children who are trying hard but pretty much suck at their jobs", "Probability": 1},
+        {"Name": "Wisps of thick smoke of different colors escapes whenever the door to the back opens", "Probability": 1},
+        {"Name": "The tray appears to be a flat living creature, similar to a horseshoe crab", "Probability": 1},
+        {"Name": "Every meal comes with a free drugged mouse", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Clerks",
+      "Probability": 1,
+      "names": [
+        {"Name": "A dour woman with a cold smile and a suit and tie wears a name tag that says Management", "Probability": 1},
+        {"Name": "Openly hostile clerk spits in your order, says fuck you, call my manager", "Probability": 1},
+        {"Name": "A vintage sci-fi robot takes orders and cracks jokes with customers and kitchen staff", "Probability": 1},
+        {"Name": "A groaning teenage girl, clearly in pain, bravely takes your order", "Probability": 1},
+        {"Name": "An Odd NPC is working behind the counter", "Probability": 1},
+        {"Name": "The clerk pets the belly of an adorable cat that's stretched out on the counter, cat hair floats around everywhere", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "General",
+      "Probability": 1,
+      "names": [
+        {"Name": "This restaurant is offering free samples", "Probability": 1},
+        {"Name": "This restaurant has a formal dress code and won't serve those who are underdressed", "Probability": 1},
+        {"Name": "This restaurant's food comes in the form of 2d pictures which customers lick", "Probability": 1},
+        {"Name": "A condiment shortage has led to ketchup scalpers", "Probability": 1},
+        {"Name": "A random PC's face is on a paper that says Do Not Serve This Person Ever Again", "Probability": 1},
+        {"Name": "A person wearing a grotesque costume of the restaurant's mascot is making children cry", "Probability": 1}
+      ]
+    },
+    {
+      "Type": "Faction",
+      "Probability": 1,
+      "names": [
+        {"Name": "The restaurant is a popular haunt for Free From Green!", "Probability": 1},
+        {"Name": "The restaurant is being boycotted by Mannequins for Freedom", "Probability": 1},
+        {"Name": "The restaurant is being swarmed by Collectors seeking a rare combo meal toy", "Probability": 1},
+        {"Name": "The restaurant is dominated by the Council of Objects, who make up a large part of the staff", "Probability": 1},
+        {"Name": "The restaurant is scheduled to be renovated by the Mall Upgraders who are taking measurements", "Probability": 1},
+        {"Name": "The restaurant is under surveillance by Servants of the Mall", "Probability": 1}
+      ]
+    }
+  ]
+}
