@@ -60,6 +60,18 @@
         {"Name": "A person wearing a grotesque costume of the restaurant's mascot is making children cry", "Probability": 1}
       ]
     },
+	{
+      "Type": "Drugged!",
+      "Probability": 1,
+      "names": [
+        {"Name": "A random PC's order is laced with speed", "Probability": 1},
+        {"Name": "Someone has spiked the fountain drinks causing unexpected inebriation", "Probability": 1},
+        {"Name": "Downers in a random PC's meal make them extremely relaxed and sleepy ", "Probability": 1},
+        {"Name": "Unknown chemicals mixed into the PCs' meals allow them to see the secret doors that Servants of the Mall use to travel", "Probability": 1},
+        {"Name": "A fast-acting steroid boosts a random PC's strength but also makes them more irritable and prone to raging out", "Probability": 1},
+        {"Name": "A random PC benefits from a mind-swapping experiment, trading minds with an Odd NPC who happens to be eating the same meal", "Probability": 1}
+      ]
+    },
     {
       "Type": "Faction",
       "Probability": 1,
