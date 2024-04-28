@@ -72,6 +72,18 @@
         {"Name": "The clerk is on the phone with someone, creating a long line", "Probability": 1}
       ]
     },
+	{
+      "Type": "Duplicates",
+      "Probability": 1,
+      "names": [
+        {"Name": "An android of one of the PCs is shopping in the store and introduces itself as <PCNAME>2.0", "Probability": 1},
+        {"Name": "A crude robot version of one of the PCs rests forlornly in a corner of the store, its likeness almost insulting, like a caricature", "Probability": 1},
+        {"Name": "An almost perfect clone of a random PC whose memories diverge a few plazas back", "Probability": 1},
+        {"Name": "Someone dressed in the same clothing as a random PC, even uses their body language and vocal mannerisms, studying their role", "Probability": 1},
+        {"Name": "Dead body of a random PC, missing 2 inventory items but has a random Odd Object", "Probability": 1},
+        {"Name": "Opposite clone of a random PC, not necessarily evil but a jock instead of a nerd, for example", "Probability": 1}
+      ]
+    },
     {
       "Type": "GDM Details 6",
       "Probability": 1,
