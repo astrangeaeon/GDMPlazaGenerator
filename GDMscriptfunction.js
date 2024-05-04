@@ -146,8 +146,33 @@ function snackbar() {
 	setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
 
+function FCunhide() {
+	var x = document.getElementById("FCcontent");
+	var y = document.getElementById("FCtoggle");
+	x.className = "FChide";
+	if (y.checked="") {
+		y.checked="checked";
+	setTimeout(function(){ x.className = x.className.replace("FChide", "FCunhide"); }, 100);
+} else {setTimeout(function(){ x.className = x.className.replace("FCunhide", "FChide"); }, 100);
+        y.checked="";
+}}
+
+function FCtoggle() {
+	var element1 = document.getElementById("FCcontent");
+	element1.classList.toggle("FChide");
+	var element2 = document.getElementById("FCbox");
+	element2.classList.toggle("FChide");
+}
+
 function scrollToAnchor(anchorId) {
   var targetDiv = document.getElementById("contentcontainer");
+  if (targetDiv) {
+    targetDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function scrollToFoodcourt(anchorId) {
+  var targetDiv = document.getElementById("foodcourtcontainer");
   if (targetDiv) {
     targetDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }

@@ -139,13 +139,21 @@ background-color: purple;
   <br>
   <!--<div class="row">
   <p class="col-4"></p>-->
-  <div class="col-12 align-self-center">
+  <!--<div class="col-12 align-self-center">
   <button id="myBtnTBD" class="btn btn-primary btn-small disabled" style="padding:30px 45px; font-size:26px;">Generate <br> Food Court</button>
-  </div>
   <!--</div>-->
   <br>
   <br>
-  <h1 class="col-12" style="font-family:Freckle Face; color:#E238EC; text-shadow: 2px 2px 4px #00FF00;">COMING SOON!</h1>
+  <!--<h1 class="col-12" style="font-family:Freckle Face; color:#E238EC; text-shadow: 2px 2px 4px #00FF00;">COMING SOON!</h1>
+  <input type="checkbox" id="FCcheckbox" onclick="FCunhide()"> Include Food Court-->
+  <div class="col-12 align-self-center">
+  <label class="switch">
+  <input id="FCtoggle" type="checkbox" class="col-12 align-self-center" onclick="FCtoggle()">
+  <span class="slider round"></span>
+  <br>
+</label>
+<p style="font-family:Comic Neue; color:#E238EC;"> Include Food Court NEW!</p>
+</div>
 </div>
 </div>
 <br>
@@ -292,6 +300,41 @@ background-color: purple;
 		</div>
 	</div>
 </div>
+
+<br>
+<div id="FCcontent" class="FChide">
+<div>
+<h3 style="text-align:center; color:#FFF; font-size:40px;">Welcome to the Food Court</h3>
+</div>
+<br>
+
+
+<div class="row ">
+	<div id="foodcourtstores" class="col-lg-6">
+		<div class="item-box" style="background-color:#2bcaa9">
+			<span class="item-title" style="background-color:#e85278;">Places to Eat</span>
+			<span class="reroll-btn" id="btn-eat"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="FCstores" class="item-results" style="background-color:#2bcaa9;"></div>
+		</div>
+	</div>
+	<div id="FCsensorydetail" class="col-lg-3">
+		<div class="item-box" style="background-color:#2bcaa9">
+			<span class="reroll-btn" id="myBtnFC2"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<span class="item-title" style="background-color:#e85278;">Sensory Detail</span>
+			<div id="FCsensory" class="item-results" style="background-color:#2bcaa9;"></div>
+		</div>
+	</div>
+	<div id="FCstoredetail" class="col-lg-3">
+		<div class="item-box" style="background-color:#2bcaa9">
+			<span class="reroll-btn" id="myBtnFC3"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<h4>One or two of the restaurants might have something</h4>
+			<span class="item-title" style="background-color:#e85278;">Strange</span>
+			<h4>What's happening?</h4>
+			<div id="FCstoredetails" class="item-results" style="background-color:#2bcaa9;"></div>
+		</div>
+	</div>
+  </div>
+ </div>
 
 
 <br>
@@ -451,6 +494,26 @@ background-color: purple;
 <div id="Copystoredetails" style="background-color:pink;">
 </div><br />
 </div>
+<div id="FCbox"  class="row FChide" style="background-color:Lime;">
+<div id="FCstoresbox" class="span4"> 
+<h2>>> The food court has the following places to eat:</h2>
+	<!--<button id="myBtn2">Reroll Plaza Feature</button>-->
+<div id="CopyFCstores" style="background-color:Aqua;">
+</div><br />
+</div>
+<div id="FCsensorybox" class="span4">
+<h2>>> The food court has at least one of the following sensory details:</h2>
+	<!--<button id="myBtn3">Reroll Plaza Sensory Detail</button>-->
+ <div id="CopyFCsensory" style="background-color:Aqua;">
+</div><br />
+</div>
+<div id="FCstoredetailsbox" class="span6">
+<h2>>>One or two of the restaurants may have something strange going on:</h2>
+<!--<button id="myBtn19">Reroll Broken Store</button>-->
+<div id="CopyFCstoredetails" style="background-color:pink;">
+</div><br />
+</div>	
+</div>
 </div>
 <div id="corridorbox" class="row" style="background-color:Magenta;">
 <div id="plazacorridorbox" class="span3">
@@ -525,6 +588,10 @@ background-color: purple;
 </div>
 <!--</div>-->
 
+
+
+
+
 <!--<button onclick="snackbar()">Show Snackbar</button>-->
 <div id="snackbar">Plaza Copied!</div>
 
@@ -541,6 +608,48 @@ background-color: purple;
 	
 </div>
 </div>
+
+
+<!--food court stuff
+<div id="foodcourtcontainer" class="container hide" style="background-color:black;">
+<div id="foodcourtheader" class="row">
+	<div id="leftstar" class="col" style="text-align:right">
+		<img src="img/flashingrainbowstar.gif" alt="Flashing Rainbow Star Left" width="52" height="71">
+	</div>
+	<div id="plazedetailsheader" class="col" style="text-align:center; font-family:Freckle Face; text-shadow: 2px 2px 4px #FFF;">
+		<h2 style="color:lime; font-size:60px;">Food Court Details</h2>
+	</div>
+	<div id="rightstar" class="col text-left">
+		<img src="img/flashingrainbowstar.gif" alt="Flashing Rainbow Star Right" width="52" height="71">
+	</div>
+</div>
+
+<div class="row ">
+	<div id="foodcourtstores" class="col-lg-6">
+		<div class="item-box" style="background-color:#FF77FF">
+			<span class="item-title" style="background-color:#FE632A;">Places to Eat</span>
+			<span class="reroll-btn" id="btn-eat"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="FCstores" class="item-results" style="background-color:#FF77FF;"></div>
+		</div>
+	</div>
+  </div>
+</div>
+
+
+<!--Food court copy stuff
+<div id="FCcopycontent" class="user-select-all">
+<div id="FCcontent" class="copytest">
+<div id="FCbox"  class="row" style="background-color:Lime;">
+<div id="FCstoresbox" class="span4"> 
+<h2>>> The plaza has the following places to eat:</h2>
+	<!--<button id="myBtn2">Reroll Plaza Feature</button>
+<div id="CopyFCstores" style="background-color:Aqua;">
+</div><br />
+</div>
+</div>
+</div>
+</div>-->
+
 <div id="bottompikachu" class="hide" style="text-align:center;">
 <img src="img/ParisCafe9362pikaconstruct.gif" alt="Pikachu Construction" style="text-align:left;">
 <img src="img/ininterlinksyouthunder_constructionA.gif" alt="Rainbow Construction" style="text-align:center;">	
@@ -638,6 +747,12 @@ element4.addEventListener("click", function() {
 	Reroll("npcprice");
 	Roll(1, "npcknowledge", "GDMPlazaNPCKnowledge");
 	Reroll("npcknowledge");
+	Roll(6, "FCstores", "GDMFoodcourtNames");
+	Reroll("FCstores");
+	Roll(1, "FCsensory", "GDMFoodcourtSensoryDetails");
+	Reroll("FCsensory");
+	Roll(2, "FCstoredetails", "GDMFoodcourtStoreDetails");
+	Reroll("FCstoredetails");
 	showFunction();
 	scrollToAnchor();
 });
@@ -741,6 +856,40 @@ const element20 = document.getElementById("unhide");
 element20.addEventListener("click", function() {
     unhide();
 });
+
+<!--const elementTBD = document.getElementById("myBtnTBD");
+<!--elementTBD.addEventListener("click", function() {
+    <!--Roll(6, "FCstores", "GDMFoodcourtNames");
+	<!--Reroll("FCstores");
+	<!--showFoodcourt();
+	<!--scrollToFoodcourt();
+<!--});-->
+
+const elementFC1 = document.getElementById("btn-eat");
+elementFC1.addEventListener("click", function() {
+console.log("click fc1");
+    Reroll("FCstores");
+	Roll(6, "FCstores", "GDMFoodcourtNames");
+});
+
+const elementFC2 = document.getElementById("myBtnFC2");
+elementFC2.addEventListener("click", function() {
+    Reroll("FCsensory");
+	Roll(1, "FCsensory", "GDMFoodcourtSensoryDetails");
+});
+
+const elementFC3 = document.getElementById("myBtnFC3");
+elementFC3.addEventListener("click", function() {
+    Reroll("FCstoredetails");
+	Roll(2, "FCstoredetails", "GDMFoodcourtStoreDetails");
+});
+
+function showFoodcourt() {
+  var x = document.getElementById("foodcourtcontainer");
+  x.style.display = "block";
+  var x = document.getElementById("bottompikachu");
+  x.style.display = "block";
+ };
 
 function showFunction() {
   var x = document.getElementById("contentcontainer");
