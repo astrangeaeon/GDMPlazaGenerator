@@ -84,6 +84,18 @@
         {"Name": "Opposite clone of a random PC, not necessarily evil but a jock instead of a nerd, for example", "Probability": 1}
       ]
     },
+	{
+      "Type": "Bring To Work Day",
+      "Probability": 1,
+      "names": [
+        {"Name": "Employees are observing Bring Your Child to Work Day", "Probability": 1},
+        {"Name": "Employees are observing Bring A Child to Work Day", "Probability": 1},
+        {"Name": "Employees are observing Bring Your Pet to Work Day", "Probability": 1},
+        {"Name": "Employees are observing Bring an Animal to Work Day", "Probability": 1},
+        {"Name": "Employees are observing Bring Your Grandparent to Work Day", "Probability": 1},
+        {"Name": "Employees are observing Bring a Senior Citizen to Work Day", "Probability": 1}
+      ]
+    },
     {
       "Type": "GDM Details 6",
       "Probability": 1,
