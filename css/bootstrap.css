@@ -5078,6 +5078,124 @@ li a:hover {
   background: #000000 url('../img/stars.gif') top left;
 }
 
+
+
+/* Mall Directory Styles */
+
+.accordion-dir:hover {
+	cursor: pointer;
+}
+
+.dir-legend .fa-circle span, .dir-legend .fa-circle-dot span { color:white; font-family:"Comic Neue"; display:inline-block; margin: 0 30px 0 5px;}
+
+
+
+
+
+/*new colors line */
+
+/*med purple*/
+.dir-perfumes, .dir-clothing, .dir-art {
+	color:#FF225D;
+}
+
+.dir-clocks, .dir-taco, .dir-dolls {
+	color:#FFC000;
+}
+
+.dir-glasses, .dir-italian, .dir-sports {
+	color:#00FFFF;
+}
+
+.dir-minigolf, .dir-supermarket  {
+	color:#2E8B57;
+}
+
+.dir-icerink {
+	color:#A7ABBA;
+}
+
+.dir-arcade, .dir-novelties {
+	color:#4B498A;
+}
+
+.dir-bridal, .dir-vegan {
+	color:#FFF;
+}
+
+.dir-hats, .dir-tobacco, .dir-videos {
+	color:#1900C2;
+}
+
+.dir-shoes, .dir-pets, .dir-photo {
+	color:#FF6200;
+}
+
+
+.dir-candles, .dir-deli {
+	color:#610569;
+}
+
+.dir-tvs, .dir-burgers {
+	color:#5ADC95;
+}
+
+.dir-furniture, .dir-candies, .dir-books {
+	color:#955700;
+}
+
+.dir-flowers {
+	color:#FFFF00;
+}
+
+.dir-icecream, .dir-aquariums {
+	color:#BC0000;
+}
+
+.dir-coffee, .dir-magic, .dir-pharmacy {
+	color:#FF9AE9;
+}
+
+.dir-exotic, .dir-toys {
+	color:#196BB9;
+}
+
+.dir-greetingcards, .dir-hairdresser {
+	color:#00FF00;
+}
+
+.dir-ski {
+	color:#FFCA8A;
+}
+
+.dir-records {
+	color:#9B6FAA;
+}
+
+
+
+.doubleline {
+	margin-left:24px
+}
+
+
+.fa {
+  position: relative;
+}
+
+.fa:hover::after {
+  content: attr(data-title);
+  padding-left: .25em;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1em;
+  left: -125%;
+  transform: translateX(-50%);
+  font-size: 1em;
+  color: red;
+}
+
+
 /* About button classes */
 
 
@@ -5131,7 +5249,7 @@ background-color: transparent;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion-gdm:hover {
+.accordion-gdm.active, .accordion-gdm:hover {
   background-color: yellow;
   font-weight:800;
 }
@@ -5144,7 +5262,7 @@ background-color: transparent;
   margin-left: 5px;
 }
 
-.active:after {
+.accordion-gdm.active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
