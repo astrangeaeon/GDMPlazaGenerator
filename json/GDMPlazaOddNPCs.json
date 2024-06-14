@@ -265,6 +265,18 @@
       ]
     },
 	{
+      "Type": "From the Food Court",
+      "Probability": 1,
+      "names": [
+        {"Name": "An ice cream clone from You Are the Ice Cream, dripping and melting and desperately seeking a cold place", "Probability": 1},
+        {"Name": "A dumpster diver wearing a Freegan's Delight polo, scrounging for food in the garbage can to deliver back to the restaurant", "Probability": 1},
+        {"Name": "An 8-foot tall burrito monster from Oh No Burrito", "Probability": 1},
+        {"Name": "A pack of dogs, some missing paws and tails, marking territory and barking after being freed from The Dogs of War by radical vegans", "Probability": 1},
+        {"Name": "A drunk rodeo clown from the Protein Rodeo, just fired", "Probability": 1},
+        {"Name": "A spoiled carton of milk shoplifted and then abandoned from Rude Food and so not having had its insult comic personality deactivated heckles passersby", "Probability": 1}
+      ]
+    },
+	{
       "Type": "Gig Workers",
       "Probability": 1,
       "names": [
