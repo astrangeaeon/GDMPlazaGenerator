@@ -277,6 +277,18 @@
       ]
     },
 	{
+      "Type": "Mascots",
+      "Probability": 1,
+      "names": [
+        {"Name": "An ill-proportioned hobbit, face stained with jam and a lustful look, mascot of HJs and PBJs", "Probability": 1},
+        {"Name": "Stink, a world weary ratperson, one of Genghis Pecan's husbands in the complicated marketing lore for Muscle Tees Unlimited", "Probability": 1},
+        {"Name": "Short blue shorts and a paisley top adorn Waldo, That Locker Room Funk's mascot, whose boombox blasting tunes can be heard across the plaza", "Probability": 1},
+        {"Name": "Ian Kidder, a 7-foot tall clown wearing a colorful patchwork coat with dozens of pockets on it, encourages shoppers to reach in for a surprise from the Just Kidding Joke Shop", "Probability": 1},
+        {"Name": "Rex Morgan, the famous zebra striped night golfer, immortalized in mascot form with his blazing purple lensed night vision goggles", "Probability": 1},
+        {"Name": "A lithe swimsuited costume, the bikini Supple Sally wears is meant to convey unearned sexy associations to Suppositories and More", "Probability": 1}
+      ]
+    },
+	{
       "Type": "Gig Workers",
       "Probability": 1,
       "names": [
