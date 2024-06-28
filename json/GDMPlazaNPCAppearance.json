@@ -52,7 +52,7 @@
       "Type": "Pet",
       "Probability": 1,
       "names": [
-        {"Name": "a dog in a carrier or leash", "Probability": 1},
+        {"Name": "a dog on a leash trained to sniff out money", "Probability": 1},
         {"Name": "a beehive with a democratically elected president", "Probability": 1},
         {"Name": "a pig in a carrier or leash", "Probability": 1},
         {"Name": "a turtle in a carrier or leash", "Probability": 1},
@@ -70,6 +70,18 @@
         {"Name": "eating an aromatic ice cream cone", "Probability": 1},
         {"Name": "chowing on a turkey leg", "Probability": 1},
         {"Name": "chewing bubble gum with an aggressive scent", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Locomotive",
+      "Probability": 1,
+      "names": [
+        {"Name": "tooling lazily around on a skateboard plastered with stickers", "Probability": 1},
+        {"Name": "walking their bicycle", "Probability": 1},
+        {"Name": "unicycling, somehow inherently annoyingly", "Probability": 1},
+        {"Name": "puttering around on a scooter", "Probability": 1},
+        {"Name": "wearing a brand new pair of rollerskates", "Probability": 1},
+        {"Name": "hovering a few feet off the ground due to a backpack sized gyrocopter", "Probability": 1}
       ]
     },
     {
@@ -136,7 +148,7 @@
       "Type": "Button",
       "Probability": 1,
       "names": [
-        {"Name": "What Have You Done For The Working Class?", "Probability": 1},
+        {"Name": "What Have You Done For the Working Class?", "Probability": 1},
         {"Name": "Crossed out clothes hanger", "Probability": 1},
         {"Name": "I voted for deez nuts", "Probability": 1},
         {"Name": "No Nazis in Valhalla", "Probability": 1},
