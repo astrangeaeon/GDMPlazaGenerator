@@ -42,7 +42,7 @@
       "names": [
         {"Name": "Luxurious RV with hot tub with an odd NPC inside", "Probability": 1},
         {"Name": "Futuristic sports car with mushrooms growing inside of it", "Probability": 1},
-        {"Name": "Black and yellow motorcycle", "Probability": 1},
+        {"Name": "Black and yellow motorcycle with a carphone that's ringing", "Probability": 1},
         {"Name": "Pink pickup truck with an odd NPC sleeping inside", "Probability": 1},
         {"Name": "Brown 80’s sedan with an odd item on the front passenger seat", "Probability": 1},
         {"Name": "Apache helicopter", "Probability": 1}
@@ -105,7 +105,7 @@
         {"Name": "Immaculately clean", "Probability": 1},
         {"Name": "Sentient urinal / toilet", "Probability": 1},
         {"Name": "Bathrooms for animals not humans", "Probability": 1},
-        {"Name": "10,000th customer surprise celebration", "Probability": 1}
+        {"Name": "Row of 1000 urinals and a full body dryer", "Probability": 1}
       ]
     },
     {
@@ -175,7 +175,7 @@
         {"Name": "Bottomless pit with a yellow A-frame warning sign", "Probability": 1},
         {"Name": "Tower of blood with invisible tigers", "Probability": 1},
         {"Name": "Interactive laser light display", "Probability": 1},
-        {"Name": "Interactive water wall", "Probability": 1},
+        {"Name": "Carousel with alien creatures and monsters that spins uncomfortably fast", "Probability": 1},
         {"Name": "Virtual reality machines", "Probability": 1},
         {"Name": "Simulated Disaster machines (earthquake, hurricane, etc.)", "Probability": 1}
       ]
