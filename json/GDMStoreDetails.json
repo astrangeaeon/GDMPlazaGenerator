@@ -96,6 +96,18 @@
         {"Name": "Employees are observing Bring a Senior Citizen to Work Day", "Probability": 1}
       ]
     },
+	{
+      "Type": "Store Accepts Alternative Payment",
+      "Probability": 1,
+      "names": [
+        {"Name": "Will accept a story as payment", "Probability": 1},
+        {"Name": "Will accept time as payment", "Probability": 1},
+        {"Name": "Will accept hair as payment", "Probability": 1},
+        {"Name": "Will accept a dream as payment", "Probability": 1},
+        {"Name": "Will accept paying it backwards, i.e., causing the next person in line to pay for your stuff (they might be mad when they find out)", "Probability": 1},
+        {"Name": "Will accept a karma payment plan, trusting it to work out", "Probability": 1}
+      ]
+    },
     {
       "Type": "GDM Details 6",
       "Probability": 1,
