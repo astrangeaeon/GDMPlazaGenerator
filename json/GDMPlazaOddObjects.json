@@ -37,6 +37,19 @@
 		{"Name": "an electric rozar blade that adds hair", "Probability": 1}
       ]
     },
+	{
+      "Type": "Someone Else's Desire",
+      "Probability": 1,
+      "names": [
+        {"Name": "heaps of Topps and Upper Deck, Donruss and Fleer in hard plastic sleeves, some strange dragon's hoard", "Probability": 1},
+        {"Name": "a perfect pillow that guarantees a good night's sleep", "Probability": 1},
+        {"Name": "a Corgi trained to sniff out buried treasures and mysteries", "Probability": 1},
+        {"Name": "a snowglobe whose scene transforms everytime it is shaken", "Probability": 1},
+        {"Name": "a helmet which performs brain surgery, permanently removing the need for sleep after a 3 hour procedure, has some side effects", "Probability": 1},
+        {"Name": "a guitar that tunes itself to whatever key you desire", "Probability": 1},
+		{"Name": "a bowl that never runs out or needs cleaned, no matter how much you smoke", "Probability": 1}
+      ]
+    },
     {
       "Type": "Banned",
       "Probability": 1,
