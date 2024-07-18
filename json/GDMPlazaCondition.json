@@ -11,6 +11,18 @@
         {"Name": "cleaned recently", "Probability": 1},
         {"Name": "completely trashed", "Probability": 1}
       ]
+    },
+	{
+      "Type": "Plaza Feature Condition",
+      "Probability": 1,
+      "names": [
+        {"Name": "the plaza feature is malfunctioning, possibly dangerous", "Probability": 1},
+        {"Name": "the plaza feature is undergoing maintenance or renovation", "Probability": 1},
+        {"Name": "the plaza feature is being removed or shut down", "Probability": 1},
+        {"Name": "the plaza feature has attracted an odd NPC", "Probability": 1},
+        {"Name": "the plaza feature is being built or installed", "Probability": 1},
+        {"Name": "the plaza feature is roped off for an uncertain reason", "Probability": 1}
+      ]
     }
   ]
 }
