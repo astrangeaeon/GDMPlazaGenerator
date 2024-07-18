@@ -76,11 +76,11 @@
       "Type": "Floor",
       "Probability": 1,
       "names": [
-        {"Name": "Cobblestone", "Probability": 1},
-        {"Name": "Solid sheet of metal", "Probability": 1},
-        {"Name": "Loose brickwork", "Probability": 1},
-        {"Name": "Tiled patterns", "Probability": 1},
-        {"Name": "Shag carpeting", "Probability": 1},
+        {"Name": "Cobblestones engraved with names of Mall patrons, rich shoppers, store owners, etc.", "Probability": 1},
+        {"Name": "Solid sheet of metal clangs with each step and is unusually hot", "Probability": 1},
+        {"Name": "Loose brickwork creates tripping hazard and conceals an odd object", "Probability": 1},
+        {"Name": "Hypnotic tiled patterns gently urge consumption", "Probability": 1},
+        {"Name": "Shag carpeting that grows like a lawn, being mown by a Servant of the Mall", "Probability": 1},
         {"Name": "Sewer grates pour steam into plaza", "Probability": 1}
       ]
     },
@@ -117,7 +117,7 @@
         {"Name": "Strings of colored lights", "Probability": 1},
         {"Name": "Weird carolers singing unfamiliar tunes outside stores", "Probability": 1},
         {"Name": "Snow-covered plaza with stylish snowmen with outfits", "Probability": 1},
-        {"Name": "Servant of the mall shoveling snow / snow plow", "Probability": 1}
+        {"Name": "Servant of the Mall shoveling snow / driving snow plow", "Probability": 1}
       ]
     },
 	{
