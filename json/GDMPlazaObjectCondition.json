@@ -1,0 +1,16 @@
+{
+  "objectcondition": [
+    {
+      "Type": "ObjectCondition",
+      "Probability": 1,
+      "names": [
+        {"Name": "broken, but not beyond repair", "Probability": 1},
+        {"Name": "mint in box or package, purchased or stolen but left unopened", "Probability": 1},
+        {"Name": "missing instructions or a crucial component", "Probability": 1},
+        {"Name": "well-cared for, suggesting a previous owner", "Probability": 1},
+        {"Name": "defective in some obvious or non-obvious way", "Probability": 1},
+        {"Name": "a counterfeit or bootleg, a knockoff product", "Probability": 1}
+      ]
+    }
+  ]
+}
