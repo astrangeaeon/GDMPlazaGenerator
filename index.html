@@ -361,6 +361,15 @@ background-color: purple;
 	</div>
 </div>
 
+<div class="row ">
+	<div id="objectfeatures" class="col-lg-12">
+		<div class="item-box" style="background-color:#56A5EC">
+			<span class="item-title" style="background-color:yellow;">One of the objects is</span>
+			<span class="reroll-btn" id="myBtn21"><i class="fa-solid fa-arrows-rotate" style="color: #000;"></i></span>
+			<div id="objectcondition" class="item-results" style="background-color:#56A5EC;"></div>
+		</div>
+	</div>
+</div>
 
 
 
@@ -558,6 +567,14 @@ background-color: purple;
 </div><br />
 </div> 
 </div>
+<div id="objectconditionbox" class="row" style="background-color:CornflowerBlue;">
+  <div id="plazaobjectconditionbox" class="span12">
+  <h2>>>One of the objects is:</h2>
+<!--<button id="myBtn14">Reroll Odd Object</button>-->
+<div id="Copyobjectcondition" style="background-color:SpringGreen;">
+</div><br />
+</div> 
+</div>
 <div id="npcbox" class="row" style="background-color:Chocolate;">
 <div id="npcsbox" class="span3">
 <h2>>>If you need a random odd NPC, pick one of these or consider making them a group:</h2>
@@ -740,6 +757,8 @@ element4.addEventListener("click", function() {
 	Reroll("condition");
 	Roll(5, "objects", "GDMPlazaOddObjects");
 	Reroll("objects");
+	Roll(1, "objectcondition", "GDMPlazaObjectCondition");
+	Reroll("objectcondition");
 	Roll(5, "npcs", "GDMPlazaOddNPCs");
 	Reroll("npcs");
 	Roll(5, "npcappearance", "GDMPlazaNPCAppearance");
@@ -856,6 +875,12 @@ element18.addEventListener("click", function() {
 const element20 = document.getElementById("unhide");
 element20.addEventListener("click", function() {
     unhide();
+});
+
+const element21 = document.getElementById("myBtn21");
+element21.addEventListener("click", function() {
+	Reroll("objectcondition");
+	Roll(1, "objectcondition", "GDMPlazaObjectCondition");
 });
 
 <!--const elementTBD = document.getElementById("myBtnTBD");
