@@ -1,7 +1,7 @@
 {
   "objectcondition": [
     {
-      "Type": "ObjectCondition",
+      "Type": "Object Condition",
       "Probability": 1,
       "names": [
         {"Name": "broken, but not beyond repair", "Probability": 1},
