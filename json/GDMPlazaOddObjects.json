@@ -17,7 +17,7 @@
       "Probability": 1,
       "names": [
         {"Name": "a New Porkopolis Stompers throwback jersey", "Probability": 1},
-        {"Name": "a pair of moon shoes", "Probability": 1},
+        {"Name": "a pair of moon shoes that adjust to the wearer's foot size and direct them to the nearest store in a random category", "Probability": 1},
         {"Name": "a bottle of expired prescription pills can cause or heal a harm", "Probability": 1},
         {"Name": "a Japanese manga with English title Elevator Forever: Samsara Mall's Green Heart", "Probability": 1},
         {"Name": "a pair of cheap child binoculars that can peep into a nearby plaza", "Probability": 1},
@@ -38,7 +38,7 @@
       ]
     },
 	{
-      "Type": "Someone Else's Desire",
+      "Type": "Somebody Else's Desire",
       "Probability": 1,
       "names": [
         {"Name": "heaps of Topps and Upper Deck, Donruss and Fleer in hard plastic sleeves, some strange dragon's hoard", "Probability": 1},
@@ -71,7 +71,8 @@
         {"Name": "ear plugs that create a bubble of silence around the wearer", "Probability": 1},
         {"Name": "half-filled spray bottle labeled Piranha Spray with DO NOT USE ON HAIR warning", "Probability": 1},
         {"Name": "stylish lenseless glasses that cause everything to smell like roses", "Probability": 1},
-        {"Name": "an alien device shaped like a thoracic vertebra with a missing slot the exact dimensions of <PC Name>'s back molar", "Probability": 1}
+        {"Name": "an alien device shaped like a thoracic vertebra with a missing slot the exact dimensions of <PC Name>'s back molar", "Probability": 1},
+		{"Name": "a long range walkie-talkie with an odd NPC broadcasting on the other end", "Probability": 1}
       ]
     },
     {
@@ -203,7 +204,8 @@
         {"Name": "a bar of soap made from poison ivy", "Probability": 1},
         {"Name": "shrinking yellow candies make you d6 inches shorter", "Probability": 1},
         {"Name": "Pranko brand solar calculator that usually gives the correct answer", "Probability": 1},
-        {"Name": "a fancy box for a deck of cards with only one card in it, the Ace of Spades", "Probability": 1}
+        {"Name": "a fancy box for a deck of cards with only one card in it, the Ace of Spades", "Probability": 1},
+		{"Name": "a bottle of mint-flavored mouthwash that makes it impossible to lie for an hour after rinsing", "Probability": 1}
       ]
     },
 	{
