@@ -57,7 +57,8 @@
         {"Name": "a large padlock and key who are all over each other, helpful, but distracted", "Probability": 1},
         {"Name": "a grandfather clock with stopped hands stoicly waiting for the hour to turn", "Probability": 1},
         {"Name": "an extremely rare comic book in plastic sleeve, curious about its insides", "Probability": 1},
-        {"Name": "a bitter matchstick, discarded on the ground, questioning its purpose", "Probability": 1}
+        {"Name": "a bitter matchstick, discarded on the ground, questioning its purpose", "Probability": 1},
+		{"Name": "a wheeled minifridge filled with spoiled food", "Probability": 1}
       ]
     },
     {
@@ -174,7 +175,7 @@
       "names": [
         {"Name": "a starving walrus carpenter wearing overalls", "Probability": 1},
         {"Name": "two tense sister electricians installing some kind of surveillance device", "Probability": 1},
-        {"Name": "a wisecracking lawnmower man landscaper", "Probability": 1},
+        {"Name": "a wisecracking landscaper watering the fake plants with fake water", "Probability": 1},
         {"Name": "a haunted construction crew", "Probability": 1},
         {"Name": "a helpful garbageman emptying the plaza's trashcan", "Probability": 1},
         {"Name": "a mindless plumber messing with the sprinkler system", "Probability": 1}
