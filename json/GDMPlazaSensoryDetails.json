@@ -28,12 +28,24 @@
       "Type": "Sight",
       "Probability": 1,
       "names": [
-        {"Name": "Bright orange puddle of vomit, coupon to random store floating on top", "Probability": 1},
+        {"Name": "Bright orange puddle, coupon to random store floating on top", "Probability": 1},
         {"Name": "Large elongated bubbles float through the plaza, blown by a giant child in a nearby plaza", "Probability": 1},
-        {"Name": "Faction graffiti, i.e., a mannequin never forgets!, hearts can be broken!", "Probability": 1},
+        {"Name": "Knocked over trash can, contents spilled out", "Probability": 1},
         {"Name": "Moonlight spills down from a high window", "Probability": 1},
         {"Name": "Skeleton next to an abandoned mobility scooter", "Probability": 1},
         {"Name": "Forgotten shopping bag with product from store in distant plaza", "Probability": 1}
+      ]
+    },
+	{
+      "Type": "Graffiti",
+      "Probability": 1,
+      "names": [
+        {"Name": "'A heart can be broken!' in Freed From Green colors", "Probability": 1},
+        {"Name": "'A mannequin never forgets!'", "Probability": 1},
+        {"Name": "'The toilets have grudges.' with a Council of Objects stenciled toilet", "Probability": 1},
+        {"Name": "Viral marketing of some kind for a random store", "Probability": 1},
+        {"Name": "An insult to a random PC made by an unknown enemy or rival", "Probability": 1},
+        {"Name": "'Property is theft'", "Probability": 1}
       ]
     },
     {
