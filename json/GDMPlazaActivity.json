@@ -145,6 +145,18 @@
       ]
     },
 	{
+      "Type": "Store Sponsored Event",
+      "Probability": 1,
+      "names": [
+        {"Name": "A very smelly Plaza Smokeout sponsored by Wild Bill's Tobacco", "Probability": 1},
+        {"Name": "A parade of costumed monsters on their way to H E Double Hockey Sticks for Monster Skate", "Probability": 1},
+        {"Name": "Golf War soldiers 'play through' the plaza, arriving in an armored 8-seated golf cart, caddies jogging behind, racing to next deployment", "Probability": 1},
+        {"Name": "Fashion show to show off new trends, sponsored by Tarantula Kicks, Sleeves and Rob's Big Damn Hats  ", "Probability": 1},
+        {"Name": "Teenapalooza, a 2 day festival of food, music and fun, sponsored by Suppositories and More", "Probability": 1},
+        {"Name": "Blood and Dragon 3, a martial arts tournament sponsored by Master Huli's Dojo", "Probability": 1}
+      ]
+    },
+	{
       "Type": "Faction Convention",
       "Probability": 1,
       "names": [
